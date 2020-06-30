@@ -1,3 +1,4 @@
+import messages from './i18n'
 
 export default {
   /*
@@ -52,7 +53,19 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    [
+      'nuxt-i18n',
+      { /* module options */ }
+    ]
   ],
+  i18n: {
+    locales: ['en', 'fr'],
+    defaultLocale: 'en',
+    vueI18n: {
+      fallbackLocale: 'en',
+      messages
+    }
+  },
   /*
   ** Build configuration
   ** See https://nuxtjs.org/api/configuration-build/
