@@ -15,6 +15,7 @@
     "test:e2e": "cross-env TEST=e2e ava ./test/e2e/**/*"
   },
   "dependencies": {
+    "dompurify": "^2.0.12",
     "nuxt": "^2.13.0",
     "nuxt-i18n": "^6.12.2"
   },

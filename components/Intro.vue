@@ -4,14 +4,19 @@
       {{ $t('title') }}
     </h1>
 
-    <h2>
-      {{ $t('subtitle') }}
-    </h2>
+    <p class="subtitle" v-html="subtitle" />
   </div>
 </template>
 
 <script>
+import DOMPurify from 'dompurify'
+
 export default {
+  computed: {
+    subtitle () {
+      return DOMPurify.sanitize(this.$t('subtitle'))
+    }
+  }
 }
 </script>
 
@@ -30,7 +35,7 @@ export default {
     margin-bottom: 16px;
   }
 
-  h2 {
+  .subtitle {
     font-size: $f32;
     line-height: $f48;
   }
