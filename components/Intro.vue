@@ -1,6 +1,6 @@
 <template>
   <div class="intro">
-    <h1>
+    <h1 class="title">
       {{ $t('title') }}
     </h1>
 
@@ -28,14 +28,11 @@ export default {
   color: $font_color;
   max-width: 834px;
 
-  h1 {
-    font-family: $zilla_slab;
-    font-size: $f76;
-    line-height: $f80;
+  & > h1.title {
     margin-bottom: 16px;
   }
 
-  .subtitle {
+  & > p.subtitle {
     font-size: $f32;
     line-height: $f48;
   }
