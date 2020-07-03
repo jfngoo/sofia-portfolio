@@ -11,8 +11,8 @@ $font_path: '~@/assets/fonts/';
 
 @font-face {
   font-family    : 'Barlow';
-  src            : url($font_path +'Barlow-Bold.eot'); /* IE9 Compat; Modes */
-  src            : url($font_path +'Barlow-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url($font_path +'Barlow-Bold.woff2') format('woff2'), /* Modern Browsers */ url($font_path +'Barlow-Bold.woff') format('woff'); /* Modern Browsers */
+  src            : url($font_path +'Barlow-SemiBold.eot'); /* IE9 Compat; Modes */
+  src            : url($font_path +'Barlow-SemiBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url($font_path +'Barlow-SemiBold.woff2') format('woff2'), /* Modern Browsers */ url($font_path +'Barlow-SemiBold.woff') format('woff'); /* Modern Browsers */
   font-style     : normal;
   font-weight    : 800;
 }
