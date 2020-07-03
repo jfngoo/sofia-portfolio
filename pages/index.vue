@@ -41,6 +41,10 @@ export default Vue.extend({
   font-family: $barlow;
   padding-left: $menu_width;
   padding-bottom: 60px;
+
+  @media all and (max-width: $breakpoint-sm) {
+    padding: 0 24px 30px;
+  }
 }
 
 .intro-container {
@@ -48,9 +52,18 @@ export default Vue.extend({
   display: flex;
   align-items: flex-end;
   padding: 0 90px 115px;
+
+  @media all and (max-width: $breakpoint-sm) {
+    min-height: auto;
+    padding: 200px 24px 60px;
+  }
 }
 
 .project-thumbnail {
   margin: 40px 90px;
+
+  @media screen and (max-width: $breakpoint-sm) {
+    margin: 24px 0;
+  }
 }
 </style>

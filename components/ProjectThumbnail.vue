@@ -2,10 +2,10 @@
   <div class="project-thumbnail">
     <div class="thumbnail">
       <div class="text">
-        <h2 class="title">
+        <h2 class="project-thumbnail-title">
           {{ title }}
         </h2>
-        <h3 class="project-subtitle">
+        <h3 class="project-thumbnail-subtitle">
           {{ subtitle }}
         </h3>
       </div>
@@ -43,6 +43,10 @@ export default {
   position: relative;
   color: white;
 
+  @media screen and (max-width: $breakpoint-sm) {
+    height: 345px;
+  }
+
   & > .thumbnail, & > .thumbnail-bg {
     width: 100%;
     height: 100%;
@@ -61,22 +65,44 @@ export default {
     align-items: center;
 
     &:hover {
-      top: -10px;
-      left: -10px;
       cursor: pointer;
+    }
+
+    @media all and (min-width: $breakpoint-sm) {
+      &:hover {
+        top: -10px;
+        left: -10px;
+      }
     }
 
     & > .text {
       margin-left: 115px;
+      margin-right: 50px;
 
-      & > h2.title {
-        color: white;
+      @media all and (max-width: $breakpoint-sm) {
+        margin-left: 24px;
       }
 
-      & > h3.project-subtitle {
+      & > h2.project-thumbnail-title {
+        font-family: $zilla_slab;
+        font-size: $f76;
+        line-height: $f80;
+
+        @media all and (max-width: $breakpoint-sm) {
+          font-size: $f40;
+          line-height: $f32;
+        }
+      }
+
+      & > h3.project-thumbnail-subtitle {
         margin-top: 12px;
         font-size: $f20;
         line-height: $f26;
+
+        @media screen and (max-width: $breakpoint-sm) {
+          font-size: $f14;
+          line-height: $f20;
+        }
       }
     }
 
@@ -84,8 +110,8 @@ export default {
       background: white;
       font-style: normal;
       font-weight: normal;
-      font-size: 16px;
-      line-height: 28px;
+      font-size: $f16;
+      line-height: $f28;
 
       display: inline-flex;
       align-items: center;
@@ -95,6 +121,10 @@ export default {
       position: absolute;
       bottom: 30px;
       right: 30px;
+
+      @media all and (min-width: $breakpoint-sm) {
+        display: none;
+      }
     }
   }
 

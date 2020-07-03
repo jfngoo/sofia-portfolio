@@ -18,5 +18,9 @@ export default {
   top: 0;
   left: 0;
   background: $main_color;
+
+  @media all and (max-width: $breakpoint-sm) {
+    display: none;
+  }
 }
 </style>

@@ -30,11 +30,24 @@ export default {
 
   & > h1.title {
     margin-bottom: 16px;
+    font-family: $zilla_slab;
+    font-size: $f76;
+    line-height: $f80;
+
+    @media all and (max-width: $breakpoint-sm) {
+      font-size: $f48;
+      line-height: $f50;
+    }
   }
 
   & > p.subtitle {
     font-size: $f32;
     line-height: $f48;
+
+    @media all and (max-width: $breakpoint-sm) {
+      font-size: $f22;
+      line-height: $f33;
+    }
   }
 }
 </style>
