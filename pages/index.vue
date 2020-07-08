@@ -5,12 +5,17 @@
       <Intro />
     </div>
     <div class="projects-container">
-      <ProjectThumbnail
+      <nuxt-link
         v-for="project in projects"
         :key="project.title"
-        :title="project.title"
-        :subtitle="project.subtitle"
-      />
+        :to="`/${project.id}`"
+      >
+        <ProjectThumbnail
+          :id="project.id"
+          :title="project.title"
+          :subtitle="project.subtitle"
+        />
+      </nuxt-link>
     </div>
   </div>
 </template>
@@ -25,6 +30,16 @@ export default Vue.extend({
   computed: {
     projects () {
       return this.$i18n.messages[this.$i18n.locale].projects
+    }
+  },
+
+  head () {
+    return {
+      title: 'Sofia Boggio - Freelance interactive designer',
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        { hid: 'description', name: 'description', content: 'Sofia Boggio\'s portfolio' }
+      ]
     }
   }
 })

@@ -1,11 +1,14 @@
 <template>
   <div class="project-thumbnail">
-    <div class="thumbnail">
+    <div
+      class="thumbnail project-banner"
+      :style="{ backgroundImage: `url('${require(`../assets/img/posters/${id}.jpg`)}')` }"
+    >
       <div class="text">
-        <h2 class="project-thumbnail-title">
+        <h2 class="title">
           {{ title }}
         </h2>
-        <h3 class="project-thumbnail-subtitle">
+        <h3 class="subtitle">
           {{ subtitle }}
         </h3>
       </div>
@@ -22,6 +25,10 @@ export default {
   name: 'ProjectThumbnail',
 
   props: {
+    id: {
+      type: String,
+      required: true
+    },
     title: {
       type: String,
       default: ''
@@ -39,7 +46,6 @@ export default {
 
 .project-thumbnail {
   height: 460px;
-  background: red;
   position: relative;
   color: white;
 
@@ -56,7 +62,8 @@ export default {
   }
 
   & > .thumbnail {
-    background: red;
+    background: center center;
+    background-size: cover;
     z-index: 2;
     transition: top 0.3s cubic-bezier(0.16, 1, 0.3, 1), left 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 
@@ -78,32 +85,6 @@ export default {
     & > .text {
       margin-left: 115px;
       margin-right: 50px;
-
-      @media all and (max-width: $breakpoint-sm) {
-        margin-left: 24px;
-      }
-
-      & > h2.project-thumbnail-title {
-        font-family: $zilla_slab;
-        font-size: $f76;
-        line-height: $f80;
-
-        @media all and (max-width: $breakpoint-sm) {
-          font-size: $f40;
-          line-height: $f32;
-        }
-      }
-
-      & > h3.project-thumbnail-subtitle {
-        margin-top: 12px;
-        font-size: $f20;
-        line-height: $f26;
-
-        @media screen and (max-width: $breakpoint-sm) {
-          font-size: $f14;
-          line-height: $f20;
-        }
-      }
     }
 
     & > .start-button {

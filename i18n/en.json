@@ -2,42 +2,51 @@
   "title": "Hi, I’m Sofia Boggio",
   "subtitle": "I’m a <b>freelance interactive designer</b> based in Paris. I’m also a curious, playful and passionate <b>maker</b>.",
   "view-project": "Voir le projet",
-  "projects": {
-    "djingo": {
+  "projects": [
+    {
+      "id": "djingo",
       "title": "Speaker Djingo",
       "subtitle": "Mobile app for Orange’s voice assistant"
     },
-    "improvize": {
+    {
+      "id": "improvize",
       "title": "Improvize",
       "subtitle": "Showcase website for rights managements softwares"
     },
-    "allo": {
+    {
+      "id": "allo",
       "title": "Allo,",
       "subtitle": "Zero-waste voice assistant"
     },
-    "la-redoute": {
+    {
+      "id": "la-redoute",
       "title": "La Redoute Intérieurs",
       "subtitle": "Interactive device in-store"
     },
-    "stiqr": {
+    {
+      "id": "stiqr",
       "title": "STIQR",
       "subtitle": "An app to experience museums differently"
     },
-    "cushy": {
+    {
+      "id": "cushy",
       "title": "Cushy!",
       "subtitle": "Interactive binging cushion"
     },
-    "marly": {
+    {
+      "id": "marly",
       "title": "Parfums de Marly",
       "subtitle": "Interactive window"
     },
-    "lost-elements": {
+    {
+      "id": "lost-elements",
       "title": "Lost Elements",
       "subtitle": "Tablet game"
     },
-    "orianna": {
+    {
+      "id": "orianna",
       "title": "Orianna",
       "subtitle": "Animated cosplay"
     }
-  }
+  ]
 }

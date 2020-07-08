@@ -1,1 +1,39 @@
 @import './variables';
+
+// Banners
+.project-banner {
+  background: center center no-repeat;
+  background-size: cover;
+
+  & > .text {
+    color: white;
+    margin-left: 115px;
+    margin-right: 50px;
+
+    @media all and (max-width: $breakpoint-sm) {
+      margin-left: 24px;
+    }
+
+    & > .title {
+      font-family: $zilla_slab;
+      font-size: $f76;
+      line-height: $f80;
+
+      @media all and (max-width: $breakpoint-sm) {
+        font-size: $f40;
+        line-height: $f32;
+      }
+    }
+
+    & > .subtitle {
+      margin-top: 12px;
+      font-size: $f20;
+      line-height: $f26;
+
+      @media screen and (max-width: $breakpoint-sm) {
+        font-size: $f14;
+        line-height: $f20;
+      }
+    }
+  }
+}
