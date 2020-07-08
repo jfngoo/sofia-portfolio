@@ -8,7 +8,7 @@
       <nuxt-link
         v-for="project in projects"
         :key="project.title"
-        :to="`/${project.id}`"
+        :to="getUrl(project.id)"
       >
         <ProjectThumbnail
           :id="project.id"
@@ -30,6 +30,12 @@ export default Vue.extend({
   computed: {
     projects () {
       return this.$i18n.messages[this.$i18n.locale].projects
+    }
+  },
+
+  methods: {
+    getUrl (projectId) {
+      return this.$i18n.locale !== 'fr' ? `/${this.$i18n.locale}/${projectId}` : `/${projectId}`
     }
   },
 
