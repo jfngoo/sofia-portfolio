@@ -28,9 +28,11 @@
 
 <script>
 import InfoBar from '../components/InfoBar'
+
 export default {
   name: 'Project',
   components: { InfoBar },
+
   computed: {
     project () {
       return this.$i18n.messages[this.$i18n.locale].projects.find(x => x.id === this.$route.params.id)

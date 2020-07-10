@@ -4,20 +4,11 @@
       {{ $t('title') }}
     </h1>
 
-    <p class="subtitle" v-html="subtitle" />
+    <p class="subtitle" :v-html="$t('subtitle')" />
   </div>
 </template>
 
 <script>
-import DOMPurify from 'dompurify'
-
-export default {
-  computed: {
-    subtitle () {
-      return DOMPurify.sanitize(this.$t('subtitle'))
-    }
-  }
-}
 </script>
 
 <style lang="scss">
