@@ -1,19 +1,31 @@
 <template>
   <div class="infobar">
     <div class="project">
-      <div class="title">{{ title }}</div>
-      <div class="subtitle">{{ date }}</div>
+      <div class="title">
+        {{ title }}
+      </div>
+      <div class="subtitle">
+        {{ date }}
+      </div>
     </div>
     <div class="theme">
-      <div class="title">{{ type }}</div>
-      <div class="subtitle">{{ skills }}</div>
+      <div class="title">
+        {{ type }}
+      </div>
+      <div class="subtitle">
+        {{ skills }}
+      </div>
     </div>
     <div
       v-if="team"
       class="team"
     >
-      <div class="title">{{ $t('a-project-with') }}</div>
-      <div class="subtitle">{{ team }}</div>
+      <div class="title">
+        {{ $t('a-project-with') }}
+      </div>
+      <div class="subtitle">
+        {{ team }}
+      </div>
     </div>
   </div>
 </template>
