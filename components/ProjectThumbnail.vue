@@ -65,7 +65,7 @@ export default {
     background: center center;
     background-size: cover;
     z-index: 2;
-    transition: top 0.3s cubic-bezier(0.16, 1, 0.3, 1), left 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 
     display: flex;
     justify-content: flex-start;
@@ -77,8 +77,7 @@ export default {
 
     @media all and (min-width: $breakpoint-sm) {
       &:hover {
-        top: -10px;
-        left: -10px;
+        transform: translateX(-10px) translateY(-10px);
       }
     }
 
