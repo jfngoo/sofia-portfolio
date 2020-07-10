@@ -2,11 +2,16 @@
   "title": "Hi, I’m Sofia Boggio",
   "subtitle": "I’m a <b>freelance interactive designer</b> based in Paris. I’m also a curious, playful and passionate <b>maker</b>.",
   "view-project": "Voir le projet",
+  "a-project-with": "Un projet avec",
   "projects": [
     {
       "id": "djingo",
       "title": "Speaker Djingo",
-      "subtitle": "Mobile app for Orange’s voice assistant"
+      "subtitle": "Mobile app for Orange’s voice assistant",
+      "date": "2019 - 2020",
+      "type": "Assistant vocal",
+      "skills": "UX/UI Design • UXC",
+      "team": "Orange"
     },
     {
       "id": "improvize",

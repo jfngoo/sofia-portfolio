@@ -16,13 +16,21 @@
         </div>
       </div>
     </div>
+    <InfoBar
+      :title="project.title"
+      :date="project.date"
+      :type="project.type"
+      :skills="project.skills"
+      :team="project.team"
+    />
   </div>
 </template>
 
 <script>
+import InfoBar from '../components/InfoBar'
 export default {
   name: 'Project',
-
+  components: { InfoBar },
   computed: {
     project () {
       return this.$i18n.messages[this.$i18n.locale].projects.find(x => x.id === this.$route.params.id)
@@ -53,7 +61,7 @@ export default {
   padding-bottom: 60px;
 
   @media all and (max-width: $breakpoint-sm) {
-    padding: 0 24px 30px;
+    padding: 0;
   }
 
   .banner {
