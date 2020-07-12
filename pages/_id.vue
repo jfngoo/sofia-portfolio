@@ -80,6 +80,7 @@
           image="image-4.jpg"
         />
       </div>
+      <NextBar />
     </div>
   </div>
 </template>
@@ -87,9 +88,10 @@
 <script>
 import TextBlock from '../components/projects/TextBlock'
 import ImageBlock from '../components/projects/ImageBlock'
+import NextBar from '../components/projects/NextBar'
 export default {
   name: 'Project',
-  components: { ImageBlock, TextBlock },
+  components: { NextBar, ImageBlock, TextBlock },
   computed: {
     project () {
       return this.$i18n.messages[this.$i18n.locale].projects.find(x => x.id === this.$route.params.id)
@@ -117,7 +119,6 @@ export default {
   background: $grey4;
   font-family: $barlow;
   padding-left: $menu_width;
-  padding-bottom: 60px;
   color: $font_color;
 
   @media all and (max-width: $breakpoint-sm) {
@@ -134,11 +135,12 @@ export default {
   }
 
   & > .container {
-    padding: 80px 0;
+    padding: 0;
 
     .row {
       display: flex;
       padding: 0 115px;
+      margin: 104px 0;
 
       &.fullsize {
         padding: 0;
@@ -146,10 +148,6 @@ export default {
 
       & > .block + .block {
         margin-left: 25px;
-      }
-
-      & + .row {
-        margin-top: 104px;
       }
     }
   }

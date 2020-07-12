@@ -48,6 +48,10 @@ export default {
   align-items: center;
   flex: 0.5;
 
+  & > img {
+    max-width : 100%;
+  }
+
   &.full {
     flex: 1;
 
