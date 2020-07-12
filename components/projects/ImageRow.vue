@@ -1,5 +1,5 @@
 <template>
-  <div class="block image-block">
+  <div class="block image-row">
     <img
       :src="require(`../../assets/img/projects/${idProject}/${image}`)"
       :alt="alt"
@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  name: 'ImageBlock',
+  name: 'ImageRow',
   props: {
     idProject: {
       type: String,
@@ -30,12 +30,13 @@ export default {
 <style lang="scss">
 @import "~@/assets/style/variables";
 
-.image-block {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 $project_container_padding;
-  flex: 0.5;
+.image-row {
+  text-align: center;
+  flex: 1;
+
+  & > img {
+    width: 100%;
+  }
 }
 
 </style>

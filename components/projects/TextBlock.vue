@@ -27,6 +27,9 @@ export default {
 @import "~@/assets/style/variables";
 
 .text-block {
+  padding: 0 $project_container_padding;
+  flex: 0.5;
+
   .subtitle {
     font-size: $f20;
     line-height: $f26;

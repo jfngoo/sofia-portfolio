@@ -41,6 +41,12 @@
           image="image-1.png"
         />
       </div>
+      <div class="row">
+        <ImageRow
+          :id-project="project.id"
+          image="image-2.jpg"
+        />
+      </div>
     </div>
   </div>
 </template>
@@ -93,14 +99,10 @@ export default {
   }
 
   & > .container {
-    padding: 80px 115px;
+    padding: 80px 0;
 
     .row {
       display: flex;
-
-      .block {
-        flex: 0.5;
-      }
 
       & > .block + .block {
         margin-left: 25px;
