@@ -9,8 +9,7 @@
     <div
       class="text"
       v-html="text"
-    >
-    </div>
+    />
   </div>
 </template>
 
