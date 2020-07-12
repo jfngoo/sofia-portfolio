@@ -49,7 +49,7 @@
         />
       </div>
       <div class="row fullsize">
-        <ImageRow
+        <ImageBlock
           :id-project="project.id"
           image="image-2.jpg"
         />
@@ -144,6 +144,10 @@ export default {
 
       &.fullsize {
         padding: 0;
+
+        & > .block {
+          flex: 1;
+        }
       }
 
       & > .block + .block {

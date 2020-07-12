@@ -49,12 +49,16 @@ export default {
   flex: 0.5;
 
   & > img {
-    max-width : 100%;
+    max-width: 100%;
   }
 
   &.full {
     flex: 1;
+  }
+}
 
+.fullsize {
+  & > .image-block {
     & > img {
       width: 100%;
     }
