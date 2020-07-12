@@ -1,5 +1,5 @@
 <template>
-  <div class="block text-block">
+  <div class="text-block">
     <h3 class="subtitle">
       {{ subtitle }}
     </h3>
@@ -38,8 +38,6 @@ export default {
 @import "~@/assets/style/variables";
 
 .text-block {
-  flex: 0.5;
-
   .subtitle {
     font-size: $f20;
     line-height: $f26;

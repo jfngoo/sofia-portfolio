@@ -1,11 +1,11 @@
 <template>
   <div
     :class="{ full: type === '2col' }"
-    class="block image-block"
+    class="image-block"
   >
     <img
       :style="{ maxHeight: maxHeight !== 0 ? `${maxHeight}px` : 'auto' }"
-      :src="require(`../../assets/img/projects/${idProject}/${image}`)"
+      :src="require(`~/assets/img/projects/${idProject}/${image}`)"
       :alt="alt"
     >
   </div>
@@ -25,7 +25,7 @@ export default {
     },
     image: {
       type: String,
-      default: ''
+      required: true
     },
     maxHeight: {
       type: Number,
@@ -54,13 +54,20 @@ export default {
 
   &.full {
     flex: 1;
+
+    & > img {
+      width: 100%;
+    }
   }
 }
 
 .fullsize {
-  & > .image-block {
-    & > img {
-      width: 100%;
+  & > .block  {
+    flex: 1;
+    & > .image-block {
+      & > img {
+        width: 100%;
+      }
     }
   }
 }

@@ -35,30 +35,7 @@
 
 <script>
 export default {
-  name: 'NextBar',
-
-  props: {
-    title: {
-      type: String,
-      required: true
-    },
-    date: {
-      type: String,
-      default: ''
-    },
-    type: {
-      type: String,
-      default: ''
-    },
-    skills: {
-      type: String,
-      default: ''
-    },
-    team: {
-      type: String,
-      default: ''
-    }
-  }
+  name: 'NextBar'
 }
 </script>
 

@@ -15,70 +15,47 @@
           </h2>
         </div>
       </div>
-    </div>
-    <InfoBar
-      :title="project.title"
-      :date="project.date"
-      :type="project.type"
-      :skills="project.skills"
-      :team="project.team"
-    />
-    <div class="container">
-      <div class="row">
-        <TextBlock
-          subtitle="CONTEXT"
-          title="Voice assistant & privacy"
-          :text="'<p>Getting informations quickly, control several house equipments, call without using your hands… It’s not just a fantasy, and it was already possible to access those services on several voice assistant.</p><p>But Orange is now positioned in the market, thanks to Djingo, focusing on the privacy of its clients data. The \'Bible\' (reference doc / fondamental characteristics of Djingo), created by Frederic Mit, Elena Tosi Brandi & Pascal Taillard, ensures the coherence of that principle amongst others.</p>'"
-        />
-      </div>
-      <div class="row">
-        <VideoEmbedBlock
-          host="facebook"
-          url="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FOrange.France%2Fvideos%2F795742717528294%2F&show_text=0&width=476"
-        />
-      </div>
-      <div class="row">
-        <TextBlock
-          subtitle="HOW DOES IT WORK?"
-          title="A well oiled machine"
-          :text="'<p>Djingo evolved a lot across those two years of development, between Orange’s desire to make a high-quality user-centric product and the reality of technology and marketing that rose along the way.</p><p>I joined one of the Design team in january 2019, and the months that went by allowed me to work on many aspects of that voice assistant.</p><br><p>To stay focused, different teams were created, working Agile and organising weekly meetings, which gave us the opportunity to see how far along everyone was (and anticipate needs).</p>'"
-        />
-        <ImageBlock
-          :id-project="project.id"
-          image="image-1.png"
-        />
-      </div>
-      <div class="row fullsize">
-        <ImageBlock
-          :id-project="project.id"
-          image="image-2.jpg"
-        />
-      </div>
-      <div class="row">
-        <TextBlock
-          subtitle="PROJECT"
-          title="A rich experience"
-          :text="'<p>My main mission has been to help Thomas Lauby and share the amount of work on the mobile app’s design:</p><ul><li>Question UX & review/make UI for existing services;</li><li>Anticipate other features, pages, screens…;</li><li>Answer to PO’s delivery needs;</li><li>Apply Orange’s Design System...</li></ul><br><p>I also took part in various workshops, as a participant and as organiser:</p><ul><li>Error messages (in-app & vocal);</li><li>Management of multiple accounts / profiles (long term vision, outside of MVP);</li><li>Orange TV skill inside Djingo’s global ecosystem...</li></ul></ul>'"
-        />
-        <TextBlock
-          subtitle=""
-          title=""
-          :text="'<p>Finally, I had the opportunity to do some CUX for a skill that should be released in 2020.</p><br><p>My work on Djingo isn’t quite over yet since I’m currently working on Djingo’s animacy (visual expressivity of Djingo cross-platform)</p>'"
-        />
-      </div>
-      <div class="row">
-        <ImageBlock
-          type="2col"
-          :id-project="project.id"
-          image="image-3.jpg"
-        />
-      </div>
-      <div class="row">
-        <ImageBlock
-          type="2col"
-          :id-project="project.id"
-          image="image-4.jpg"
-        />
+
+      <InfoBar
+        :title="project.title"
+        :date="project.date"
+        :type="project.type"
+        :skills="project.skills"
+        :team="project.team"
+      />
+      <div class="container">
+        <div
+          v-for="(row, i) in project.rows"
+          :key="`row-${i}`"
+          :class="{ fullsize: row.rowType === 'fullsize' }"
+          class="row"
+        >
+          <div
+            v-for="(block, j) in row.blocks"
+            :key="`row-${i}-block-${j}`"
+            :class="{ full: block.type === '2col' || block.block === 'video-embed' }"
+            class="block"
+          >
+            <TextBlock
+              v-if="block.block === 'text'"
+              :subtitle="block.subtitle"
+              :title="block.title"
+              :text="block.text"
+            />
+            <ImageBlock
+              v-if="block.block === 'image'"
+              :id-project="project.id"
+              :type="block.type"
+              :image="block.image"
+            />
+            <VideoEmbedBlock
+              v-if="block.block === 'video-embed'"
+              :host="block.host"
+              :url="block.url"
+              :video-code="block.videoCode"
+            />
+          </div>
+        </div>
       </div>
       <NextBar />
     </div>
@@ -88,10 +65,10 @@
 <script>
 import TextBlock from '../components/projects/TextBlock'
 import ImageBlock from '../components/projects/ImageBlock'
-import NextBar from '../components/projects/NextBar'
+import VideoEmbedBlock from '../components/projects/VideoEmbedBlock'
 export default {
   name: 'Project',
-  components: { NextBar, ImageBlock, TextBlock },
+  components: { VideoEmbedBlock, ImageBlock, TextBlock },
   computed: {
     project () {
       return this.$i18n.messages[this.$i18n.locale].projects.find(x => x.id === this.$route.params.id)
@@ -134,24 +111,34 @@ export default {
     align-items: center;
   }
 
-  & > .container {
-    padding: 0;
+  & > .project-container {
+    & > .container {
+      padding: 0;
 
-    .row {
-      display: flex;
-      padding: 0 115px;
-      margin: 104px 0;
-
-      &.fullsize {
-        padding: 0;
+      .row {
+        display: flex;
+        padding: 0 115px;
+        margin: 104px 0;
 
         & > .block {
-          flex: 1;
-        }
-      }
+          flex: 0.5;
 
-      & > .block + .block {
-        margin-left: 25px;
+          &.full {
+            flex: 1;
+          }
+        }
+
+        &.fullsize {
+          padding: 0;
+
+          & > .block {
+            flex: 1;
+          }
+        }
+
+        & > .block + .block {
+          margin-left: 25px;
+        }
       }
     }
   }

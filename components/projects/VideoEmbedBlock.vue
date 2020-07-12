@@ -1,5 +1,5 @@
 <template>
-  <div class="block video-embed-block">
+  <div class="video-embed-block">
     <div
       v-if="host === 'vimeo'"
       class="video"
