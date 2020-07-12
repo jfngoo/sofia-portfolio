@@ -53,11 +53,7 @@ $horizontalPadding: 115px;
   align-items: center;
 
   @media screen and (max-width: $breakpoint-sm) {
-    padding: 15px 0;
-  }
-
-  & > .next {
-    text-align: right;
+    justify-content: flex-end;
   }
 
   & > .previous, & > .next {
@@ -103,6 +99,16 @@ $horizontalPadding: 115px;
         width: calc(#{$horizontalPadding} - 30px);
         overflow: hidden;
       }
+    }
+  }
+
+  & > .next {
+    text-align: right;
+  }
+
+  & > .previous {
+    @media screen and (max-width: $breakpoint-sm) {
+      display: none;
     }
   }
 }

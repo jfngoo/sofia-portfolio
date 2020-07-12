@@ -43,6 +43,10 @@ export default {
     line-height: $f26;
     text-transform: uppercase;
     font-weight: normal;
+
+    @media screen and (max-width: $breakpoint-sm) {
+      font-size: $f18;
+    }
   }
 
   .title {
@@ -50,11 +54,21 @@ export default {
     font-size: $f56;
     line-height: $f48;
     margin: 24px 0;
+
+    @media screen and (max-width: $breakpoint-sm) {
+      font-size: $f40;
+      line-height: $f32;
+    }
   }
 
   .text {
     font-size: $f18;
     line-height: $f28;
+
+    @media screen and (max-width: $breakpoint-sm) {
+      font-size: $f16;
+      line-height: $f27;
+    }
 
     & > p {
       text-indent: 30px;

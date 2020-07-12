@@ -4,7 +4,6 @@
     class="image-block"
   >
     <img
-      :style="{ maxHeight: maxHeight !== 0 ? `${maxHeight}px` : 'auto' }"
       :src="require(`~/assets/img/projects/${idProject}/${image}`)"
       :alt="alt"
     >
@@ -26,10 +25,6 @@ export default {
     image: {
       type: String,
       required: true
-    },
-    maxHeight: {
-      type: Number,
-      default: 0
     },
     alt: {
       type: String,

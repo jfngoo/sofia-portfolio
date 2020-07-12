@@ -48,6 +48,11 @@
               :type="block.type"
               :image="block.image"
             />
+            <ImageRow
+              v-if="block.block === 'image-row'"
+              :id-project="project.id"
+              :image="block.image"
+            />
             <VideoEmbedBlock
               v-if="block.block === 'video-embed'"
               :host="block.host"
@@ -63,12 +68,9 @@
 </template>
 
 <script>
-import TextBlock from '../components/projects/TextBlock'
-import ImageBlock from '../components/projects/ImageBlock'
-import VideoEmbedBlock from '../components/projects/VideoEmbedBlock'
 export default {
   name: 'Project',
-  components: { VideoEmbedBlock, ImageBlock, TextBlock },
+
   computed: {
     project () {
       return this.$i18n.messages[this.$i18n.locale].projects.find(x => x.id === this.$route.params.id)
@@ -119,6 +121,10 @@ export default {
         display: flex;
         padding: 0 115px;
         margin: 104px 0;
+
+        @media screen and (max-width: $breakpoint-sm) {
+          padding: 0 24px;
+        }
 
         & > .block {
           flex: 0.5;

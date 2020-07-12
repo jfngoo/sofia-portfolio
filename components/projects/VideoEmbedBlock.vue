@@ -38,7 +38,7 @@
     >
       <iframe
         :src="url"
-        width="476"
+        width="300"
         height="476"
         style="border:none;overflow:hidden"
         scrolling="no"

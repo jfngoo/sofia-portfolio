@@ -55,8 +55,7 @@
           "rowType": "fullsize",
           "blocks": [
             {
-              "block": "image",
-              "type": "1col",
+              "block": "image-row",
               "image": "image-2.jpg"
             }
           ]
