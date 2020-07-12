@@ -1,7 +1,7 @@
 <template>
   <div class="nextbar">
     <nuxt-link
-      :to="getUrl(previous.id)"
+      :to="localePath(`/${previous.id}`)"
       class="previous"
     >
       <div class="thread">
@@ -19,7 +19,7 @@
     </nuxt-link>
 
     <nuxt-link
-      :to="getUrl(next.id)"
+      :to="localePath(`/${next.id}`)"
       class="next"
     >
       <div class="text">
@@ -51,12 +51,6 @@ export default {
     next: {
       type: Object,
       required: true
-    }
-  },
-
-  methods: {
-    getUrl (projectId) {
-      return this.$i18n.locale !== 'fr' ? `/${this.$i18n.locale}/${projectId}` : `/${projectId}`
     }
   }
 }

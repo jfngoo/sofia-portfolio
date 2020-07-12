@@ -62,7 +62,7 @@ export default {
     ]
   ],
   i18n: {
-    locales: ['en', 'fr'],
+    locales: ['fr', 'en'],
     defaultLocale: 'fr',
     vueI18n: {
       fallbackLocale: 'fr',
