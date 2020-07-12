@@ -4,7 +4,7 @@
       {{ $t('title') }}
     </h1>
 
-    <p class="subtitle" :v-html="$t('subtitle')" />
+    <p class="subtitle" v-html="$t('subtitle')" />
   </div>
 </template>
 
