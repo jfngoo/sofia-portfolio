@@ -1,25 +1,37 @@
 <template>
   <div class="block text-block">
     <h3 class="subtitle">
-      Context
+      {{ subtitle }}
     </h3>
     <h2 class="title">
-      Voice assistant & privacy
+      {{ title }}
     </h2>
-    <div class="text">
-      <p>
-        Getting informations quickly, control several house equipments, call without using your hands… It’s not just a fantasy, and it was already possible to access those services on several voice assistant.
-      </p>
-      <p>
-        But Orange is now positioned in the market, thanks to Djingo, focusing on the privacy of its clients data. The "Bible" (reference doc / fondamental characteristics of Djingo), created by Frederic Mit, Elena Tosi Brandi & Pascal Taillard, ensures the coherence of that principle amongst others.
-      </p>
+    <div
+      class="text"
+      v-html="text"
+    >
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'TextBlock'
+  name: 'TextBlock',
+
+  props: {
+    subtitle: {
+      type: String,
+      default: ''
+    },
+    title: {
+      type: String,
+      default: ''
+    },
+    text: {
+      type: String,
+      default: ''
+    }
+  }
 }
 </script>
 
@@ -27,7 +39,6 @@ export default {
 @import "~@/assets/style/variables";
 
 .text-block {
-  padding: 0 $project_container_padding;
   flex: 0.5;
 
   .subtitle {
@@ -44,10 +55,13 @@ export default {
     margin: 24px 0;
   }
 
-  .text p {
-    text-indent: 30px;
+  .text {
     font-size: $f18;
     line-height: $f28;
+
+    & > p {
+      text-indent: 30px;
+    }
   }
 }
 

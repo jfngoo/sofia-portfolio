@@ -1,6 +1,10 @@
 <template>
-  <div class="block image-block">
+  <div
+    :class="{ full: type === '2col' }"
+    class="block image-block"
+  >
     <img
+      :style="{ maxHeight: maxHeight !== 0 ? `${maxHeight}px` : 'auto' }"
       :src="require(`../../assets/img/projects/${idProject}/${image}`)"
       :alt="alt"
     >
@@ -11,6 +15,10 @@
 export default {
   name: 'ImageBlock',
   props: {
+    type: {
+      type: String,
+      default: ''
+    },
     idProject: {
       type: String,
       default: ''
@@ -18,6 +26,10 @@ export default {
     image: {
       type: String,
       default: ''
+    },
+    maxHeight: {
+      type: Number,
+      default: 0
     },
     alt: {
       type: String,
@@ -34,8 +46,15 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 $project_container_padding;
   flex: 0.5;
+
+  &.full {
+    flex: 1;
+
+    & > img {
+      width: 100%;
+    }
+  }
 }
 
 </style>
