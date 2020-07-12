@@ -5,7 +5,7 @@
       class="logo"
     >
       <img
-        src="../assets/img/logo.png"
+        src="../assets/img/logo.svg"
         alt="Logo"
       >
     </nuxt-link>
