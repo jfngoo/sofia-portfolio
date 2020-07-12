@@ -1,27 +1,33 @@
 <template>
   <div class="nextbar">
-    <div class="previous">
+    <nuxt-link
+      :to="getUrl(previous.id)"
+      class="previous"
+    >
       <div class="thread">
         <div class="bar" />
         <div class="circle" />
       </div>
       <div class="text">
         <div class="label">
-          Previous
+          {{ $t('previous') }}
         </div>
         <div class="title">
-          Orianna
+          {{ previous.title }}
         </div>
       </div>
-    </div>
+    </nuxt-link>
 
-    <div class="next">
+    <nuxt-link
+      :to="getUrl(next.id)"
+      class="next"
+    >
       <div class="text">
         <div class="label">
-          Next
+          {{ $t('next') }}
         </div>
         <div class="title">
-          Improvize
+          {{ next.title }}
         </div>
       </div>
 
@@ -29,13 +35,30 @@
         <div class="circle" />
         <div class="bar" />
       </div>
-    </div>
+    </nuxt-link>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'NextBar'
+  name: 'NextBar',
+
+  props: {
+    previous: {
+      type: Object,
+      required: true
+    },
+    next: {
+      type: Object,
+      required: true
+    }
+  },
+
+  methods: {
+    getUrl (projectId) {
+      return this.$i18n.locale !== 'fr' ? `/${this.$i18n.locale}/${projectId}` : `/${projectId}`
+    }
+  }
 }
 </script>
 
@@ -60,6 +83,8 @@ $horizontalPadding: 115px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: $font_color;
+    text-decoration: none;
 
     & > .text {
       padding: 30px;

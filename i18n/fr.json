@@ -3,6 +3,8 @@
   "subtitle": "I’m a <b>freelance interactive designer</b> based in Paris. I’m also a curious, playful and passionate <b>maker</b>.",
   "view-project": "Voir le projet",
   "a-project-with": "Un projet avec",
+  "next": "Suivant",
+  "previous": "Précédent",
   "projects": [
     {
       "id": "djingo",

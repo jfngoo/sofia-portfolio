@@ -62,7 +62,10 @@
           </div>
         </div>
       </div>
-      <NextBar />
+      <NextBar
+        :previous="previousProject"
+        :next="nextProject"
+      />
     </div>
   </div>
 </template>
@@ -72,8 +75,24 @@ export default {
   name: 'Project',
 
   computed: {
+    projects () {
+      return this.$i18n.messages[this.$i18n.locale].projects
+    },
+
     project () {
-      return this.$i18n.messages[this.$i18n.locale].projects.find(x => x.id === this.$route.params.id)
+      return this.projects.find(x => x.id === this.$route.params.id)
+    },
+
+    projectIndex () {
+      return this.projects.findIndex(x => x.id === this.$route.params.id)
+    },
+
+    previousProject () {
+      return this.projectIndex > 0 ? this.projects[this.projectIndex - 1] : this.projects[this.projects.length - 1]
+    },
+
+    nextProject () {
+      return this.projectIndex < this.projects.length - 1 ? this.projects[this.projectIndex + 1] : this.projects[0]
     }
   },
 
