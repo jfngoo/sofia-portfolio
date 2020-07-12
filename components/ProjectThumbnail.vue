@@ -47,7 +47,7 @@ export default {
 .project-thumbnail {
   height: 460px;
   position: relative;
-  color: white;
+  color: $font_color;
 
   @media screen and (max-width: $breakpoint-sm) {
     height: 345px;

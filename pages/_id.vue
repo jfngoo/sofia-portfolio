@@ -23,15 +23,31 @@
       :skills="project.skills"
       :team="project.team"
     />
+    <div class="container">
+      <div class="row">
+        <TextBlock />
+        <TextBlock />
+      </div>
+      <div class="row">
+        <VideoEmbedBlock
+          host="facebook"
+          url="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FOrange.France%2Fvideos%2F795742717528294%2F&show_text=0&width=476"
+        />
+      </div>
+      <div class="row">
+        <TextBlock />
+        <ImageBlock
+          :id-project="project.id"
+          image="image-1.png"
+        />
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import InfoBar from '../components/InfoBar'
-
 export default {
   name: 'Project',
-  components: { InfoBar },
 
   computed: {
     project () {
@@ -61,6 +77,7 @@ export default {
   font-family: $barlow;
   padding-left: $menu_width;
   padding-bottom: 60px;
+  color: $font_color;
 
   @media all and (max-width: $breakpoint-sm) {
     padding: 0;
@@ -73,6 +90,26 @@ export default {
     background-size: cover;
     display: flex;
     align-items: center;
+  }
+
+  & > .container {
+    padding: 80px 115px;
+
+    .row {
+      display: flex;
+
+      .block {
+        flex: 0.5;
+      }
+
+      & > .block + .block {
+        margin-left: 25px;
+      }
+
+      & + .row {
+        margin-top: 104px;
+      }
+    }
   }
 }
 </style>
