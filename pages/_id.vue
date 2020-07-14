@@ -147,10 +147,15 @@ export default {
 
         @media screen and (max-width: $breakpoint-sm) {
           padding: 0 24px;
+          flex-wrap: wrap;
         }
 
         & > .block {
           flex: 0.5;
+
+          @media screen and (max-width: $breakpoint-sm) {
+            flex: 0 0 100%;
+          }
 
           &.full {
             flex: 1;
@@ -167,6 +172,10 @@ export default {
 
         & > .block + .block {
           margin-left: 25px;
+
+          @media screen and (max-width: $breakpoint-sm) {
+            margin-left: 0;
+          }
         }
       }
     }
