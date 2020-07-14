@@ -4,7 +4,10 @@
     <div class="intro-container">
       <Intro />
     </div>
-    <div class="projects-container">
+    <div
+      id="projects"
+      class="projects-container"
+    >
       <nuxt-link
         v-for="project in projects"
         :key="project.title"

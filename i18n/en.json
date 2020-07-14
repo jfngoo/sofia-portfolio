@@ -5,6 +5,8 @@
   "a-project-with": "A project with",
   "next": "Next",
   "previous": "Previous",
+  "contact": "Contact",
+  "work": "Projets",
   "projects": [
     {
       "id": "djingo",

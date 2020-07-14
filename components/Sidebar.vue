@@ -9,6 +9,21 @@
         alt="Logo"
       >
     </nuxt-link>
+    <nav>
+      <nuxt-link
+        :to="localePath('/contact')"
+        :class="{ active: $route.name.includes('contact___') }"
+      >
+        {{ $t('contact') }}
+      </nuxt-link>
+
+      <nuxt-link
+        :to="localePath({ path: '/', hash: 'projects' })"
+        :class="{ active: $route.name.includes('index___') }"
+      >
+        {{ $t('work') }}
+      </nuxt-link>
+    </nav>
     <div class="locale-selector">
       <nuxt-link
         v-for="locale in availableLocales"
@@ -51,6 +66,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-end;
 
   padding-bottom: 56px;
 
@@ -58,10 +74,37 @@ export default {
     display: none;
   }
 
+  nav {
+    display: flex;
+    transform: rotate(-90deg);
+    margin-bottom: 160px;
+
+    @media all and (max-height: 600px) {
+      margin-bottom: 80px;
+    }
+
+    & > a {
+      color: $font_color;
+      text-decoration: none;
+      padding: calc(#{$menu_width}/2 - 10px) 28px;
+      font-size: $f16;
+      line-height: $f19;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      &.active {
+        font-weight: bold;
+      }
+    }
+  }
+
   & > .logo {
     display: block;
     width: 100%;
     padding: 45px 0;
+    margin-bottom: auto;
 
     &:hover {
       cursor: pointer;
@@ -73,23 +116,22 @@ export default {
   }
 
   & > .locale-selector {
+    width: 100%;
     display: flex;
     flex-direction: column;
-    margin-top: auto;
 
     & > a {
+      display: block;
       color: $font_color;
       text-decoration: none;
       text-transform: uppercase;
       font-size: $f16;
       line-height: $f19;
+      padding: 10px 0;
+      flex: 1;
 
       &.active {
         font-weight: bold;
-      }
-
-      & + a {
-        margin-top: 20px;
       }
     }
   }

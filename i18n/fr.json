@@ -6,6 +6,8 @@
   "a-project-with": "Un projet avec",
   "next": "Suivant",
   "previous": "Précédent",
+  "contact": "Contact",
+  "work": "Projets",
   "projects": [
     {
       "id": "djingo",
