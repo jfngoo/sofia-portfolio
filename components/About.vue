@@ -1,15 +1,11 @@
 <template>
   <div class="about">
-    <img
-      class="photo"
-      src="../assets/img/contact/photo.jpg"
-      alt="Sofia Boggio"
-    >
+    <div class="photo" />
     <div class="text-wrapper">
       <div class="text">
-        <div class="title">
+        <h1 class="title">
           {{ $t('title') }}
-        </div>
+        </h1>
         <div class="subtitle">
           <p v-html="$t('subtitle')" />
           <br>
@@ -22,11 +18,7 @@
 
 <script>
 export default {
-  name: 'About',
-
-  mounted () {
-    console.log(this.$t('about'))
-  }
+  name: 'About'
 }
 </script>
 
@@ -41,8 +33,16 @@ export default {
 
   flex-wrap: wrap;
 
+  @media screen and (max-width: $breakpoint-sm) {
+    display: block;
+    margin-left: 0;
+  }
+
   & > .photo {
+    min-height: 556px;
     flex: 0 0 435px;
+    background: url('../assets/img/contact/photo.jpg') no-repeat center center;
+    background-size: cover;
   }
 
   & > .text-wrapper {

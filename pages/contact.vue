@@ -24,7 +24,7 @@ export default {
   padding: 146px 0 60px $menu_width;
 
   @media all and (max-width: $breakpoint-sm) {
-    padding: 0 24px 30px;
+    padding: 0;
   }
 }
 </style>

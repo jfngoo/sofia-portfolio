@@ -14,14 +14,14 @@
         :to="localePath('/contact')"
         :class="{ active: $route.name.includes('contact___') }"
       >
-        {{ $t('contact') }}
+        {{ $t('nav.contact') }}
       </nuxt-link>
 
       <nuxt-link
         :to="localePath({ path: '/', hash: 'projects' })"
         :class="{ active: $route.name.includes('index___') }"
       >
-        {{ $t('work') }}
+        {{ $t('nav.work') }}
       </nuxt-link>
     </nav>
     <div class="locale-selector">

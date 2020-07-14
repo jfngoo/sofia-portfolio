@@ -1,5 +1,9 @@
 @import './variables';
 
+a {
+  color: $font_color;
+}
+
 // Banners
 .project-banner {
   background: center center no-repeat;

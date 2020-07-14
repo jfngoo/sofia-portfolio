@@ -6,8 +6,39 @@
   "a-project-with": "Un projet avec",
   "next": "Suivant",
   "previous": "Précédent",
-  "contact": "Contact",
-  "work": "Projets",
+  "nav": {
+    "contact": "Contact",
+    "work": "Projets"
+  },
+  "contact": {
+    "title": "Let's work together!",
+    "contact-me": "Contact me",
+    "email": "boggio.sofia[ @ ]gmail.com",
+    "follow": "Follow me",
+    "thanks": {
+      "link": "https://jackyfong.com",
+      "message": "Thanks to {0} for the dev",
+      "display": "Jacky Fong"
+    },
+    "social": [
+      {
+        "host": "behance",
+        "url": "https://www.behance.net/sofiaboggio"
+      },
+      {
+        "host": "linkedin",
+        "url": "https://www.linkedin.com/in/sofia-boggio-67137480/"
+      },
+      {
+        "host": "facebook",
+        "url": "https://www.facebook.com/soozyx/"
+      },
+      {
+        "host": "twitter",
+        "url": "https://twitter.com/Soo_Zyx"
+      }
+    ]
+  },
   "projects": [
     {
       "id": "djingo",

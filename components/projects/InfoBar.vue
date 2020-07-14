@@ -4,11 +4,14 @@
       <div class="title">
         {{ title }}
       </div>
+      <div class="team">
+        {{ team }}
+      </div>
       <div class="subtitle">
         {{ date }}
       </div>
     </div>
-    <div class="theme">
+    <div class="skills">
       <div class="title">
         {{ type }}
       </div>
@@ -80,8 +83,17 @@ export default {
     padding: 15px 0;
   }
 
-  & > .project, & > .theme, & > .team {
+  & > .project, & > .skills, & > .team {
     margin: 0 20px;
+
+    & > .team {
+      display: none;
+      font-weight: bold;
+
+      @media screen and (max-width: $breakpoint-sm) {
+        display: inline-block;
+      }
+    }
 
     & > .title {
       font-weight: bold;
@@ -92,13 +104,39 @@ export default {
     }
   }
 
-  & > .project, & > .theme {
+  & > .project, & > .skills {
     flex: 0.5;
+
+    @media screen and (max-width: $breakpoint-md) {
+      flex: 1;
+    }
+  }
+
+  & > .project {
+    & > .title {
+      @media screen and (max-width: $breakpoint-sm) {
+        display: none;
+      }
+    }
+  }
+
+  & > .skills {
+    @media screen and (max-width: $breakpoint-sm) {
+      text-align: right;
+    }
   }
 
   & > .team {
     text-align: right;
     flex: 1;
+
+    @media screen and (max-width: $breakpoint-md) {
+      margin: 0;
+    }
+
+    @media screen and (max-width: $breakpoint-sm) {
+      display: none;
+    }
   }
 }
 </style>
