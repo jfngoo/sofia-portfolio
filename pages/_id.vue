@@ -141,6 +141,10 @@ export default {
         padding: 0 115px;
         margin: 104px 0;
 
+        @media screen and (max-width: $breakpoint-md) {
+          padding: 0 $medium-padding;
+        }
+
         @media screen and (max-width: $breakpoint-sm) {
           padding: 0 24px;
         }

@@ -10,14 +10,15 @@
     margin-left: 115px;
     margin-right: 50px;
 
-    @media all and (max-width: $breakpoint-sm) {
-      margin-left: 24px;
-    }
-
     & > .title {
       font-family: $zilla_slab;
       font-size: $f76;
       line-height: $f80;
+
+      @media all and (max-width: $breakpoint-md) {
+        font-size: $f64;
+        line-height: $f64;
+      }
 
       @media all and (max-width: $breakpoint-sm) {
         font-size: $f40;

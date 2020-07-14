@@ -72,6 +72,10 @@ export default {
   justify-content: space-between;
   align-items: center;
 
+  @media screen and (max-width: $breakpoint-md) {
+    padding: 15px 35px;
+  }
+
   @media screen and (max-width: $breakpoint-sm) {
     padding: 15px 0;
   }

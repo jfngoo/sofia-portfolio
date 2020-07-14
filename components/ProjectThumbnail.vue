@@ -84,6 +84,14 @@ export default {
     & > .text {
       margin-left: 115px;
       margin-right: 50px;
+
+      @media all and (max-width: $breakpoint-md) {
+        margin-left: 80px;
+      }
+
+      @media all and (max-width: $breakpoint-sm) {
+        margin-left: 24px;
+      }
     }
 
     & > .start-button {

@@ -69,6 +69,8 @@ $horizontalPadding: 115px;
   justify-content: space-between;
   align-items: center;
 
+  overflow: hidden;
+
   @media screen and (max-width: $breakpoint-sm) {
     justify-content: flex-end;
   }
@@ -116,7 +118,10 @@ $horizontalPadding: 115px;
         background: $font_color;
         height: 2px;
         width: calc(#{$horizontalPadding} - 30px);
-        overflow: hidden;
+
+        @media screen and (max-width: $breakpoint-md) {
+          width: calc(#{$medium-padding} - 30px);
+        }
       }
     }
   }

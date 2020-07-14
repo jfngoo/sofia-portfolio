@@ -22,11 +22,8 @@
 
 <script>
 import Vue from 'vue'
-import ProjectThumbnail from '../components/ProjectThumbnail'
 
 export default Vue.extend({
-  components: { ProjectThumbnail },
-
   computed: {
     projects () {
       return this.$i18n.messages[this.$i18n.locale].projects
@@ -56,6 +53,11 @@ export default Vue.extend({
   font-family: $barlow;
   padding-left: $menu_width;
   padding-bottom: 60px;
+  color: $font_color;
+
+  @media all and (max-width: $breakpoint-md) {
+    padding: 0 0 10px $menu_width;
+  }
 
   @media all and (max-width: $breakpoint-sm) {
     padding: 0 24px 30px;
@@ -66,7 +68,11 @@ export default Vue.extend({
   min-height: 100vh;
   display: flex;
   align-items: flex-end;
-  padding: 0 90px 115px;
+  padding: 0 $large-padding 115px;
+
+  @media screen and (max-width: $breakpoint-md) {
+    padding: 0 $medium-padding 60px;
+  }
 
   @media all and (max-width: $breakpoint-sm) {
     min-height: auto;
@@ -75,7 +81,11 @@ export default Vue.extend({
 }
 
 .project-thumbnail {
-  margin: 40px 90px;
+  margin: 40px $large-padding;
+
+  @media screen and (max-width: $breakpoint-md) {
+    margin: $medium-padding;
+  }
 
   @media screen and (max-width: $breakpoint-sm) {
     margin: 24px 0;

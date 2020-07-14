@@ -15,14 +15,10 @@ export default {
 </script>
 
 <style lang="scss">
-
 @import '../assets/style/variables';
 
 .intro {
-  color: $font_color;
-  max-width: 834px;
-
-  & > h1.title {
+  & > .title {
     margin-bottom: 16px;
     font-family: $zilla_slab;
     font-size: $f76;
@@ -34,7 +30,7 @@ export default {
     }
   }
 
-  & > p.subtitle {
+  & > .subtitle {
     font-size: $f32;
     line-height: $f48;
 
