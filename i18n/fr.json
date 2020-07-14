@@ -50,7 +50,7 @@
       "team": "Orange",
       "rows": [
         {
-          "type": "default",
+          "rowType": "default",
           "blocks": [
             {
               "block": "text",

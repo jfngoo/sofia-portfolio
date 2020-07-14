@@ -89,6 +89,7 @@ export default {
     & > .team {
       display: none;
       font-weight: bold;
+      margin-bottom: 8px;
 
       @media screen and (max-width: $breakpoint-sm) {
         display: inline-block;
@@ -97,6 +98,7 @@ export default {
 
     & > .title {
       font-weight: bold;
+      margin-bottom: 8px;
     }
 
     & > .subtitle {

@@ -59,7 +59,7 @@ export default {
   top: 0;
   left: 0;
   background: $main_color;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 70px rgba(43, 46, 69, 0.6);
 
   text-align: center;
 

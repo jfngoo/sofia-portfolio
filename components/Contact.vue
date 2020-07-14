@@ -36,7 +36,8 @@
         <a
           class="link"
           :href="$t('contact.thanks.link')"
-          target="_blank">
+          target="_blank"
+        >
           {{ $t('contact.thanks.display') }}
         </a>
       </i18n>
