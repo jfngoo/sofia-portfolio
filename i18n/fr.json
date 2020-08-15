@@ -1,7 +1,7 @@
 {
-  "title": "Hi, I’m Sofia Boggio",
-  "subtitle": "I’m a <b>freelance interactive designer</b> based in Paris. I’m also a curious, playful and passionate <b>maker</b>.",
-  "about": "From conception to monitoring, by way of user experience and user interface ; I can relevantly step in at any moment of your project.",
+  "title": "Sofia Boggio to Ground controle",
+  "subtitle": "Designer interactif freelance, je suis spécialisée en UX Design, mais pas seulement.",
+  "about": "Du Service design à l’UI, du motion design au montage vidéo, ou du design produit à l’IoT ; Je suis une maker curieuse et passionnée, avec pour ambition d’apporter une dimension ludique et/ou pédagogique dans mon travail.",
   "view-project": "Voir le projet",
   "a-project-with": "Un projet avec",
   "next": "Suivant",
@@ -43,7 +43,7 @@
     {
       "id": "djingo",
       "title": "Speaker Djingo",
-      "subtitle": "Mobile app for Orange’s voice assistant",
+      "subtitle": "Application mobile pour l'assistant vocal d'Orange",
       "date": "2019 - 2020",
       "type": "Assistant vocal",
       "skills": "UX/UI Design • UXC",
@@ -54,9 +54,9 @@
           "blocks": [
             {
               "block": "text",
-              "subtitle": "CONTEXT",
-              "title": "Voice assistant & privacy",
-              "text": "<p>Getting informations quickly, control several house equipments, call without using your hands… It’s not just a fantasy, and it was already possible to access those services on several voice assistant.</p><p>But Orange is now positioned in the market, thanks to Djingo, focusing on the privacy of its clients data. The \"Bible\" (reference doc / fondamental characteristics of Djingo), created by Frederic Mit, Elena Tosi Brandi & Pascal Taillard, ensures the coherence of that principle amongst others.</p>"
+              "subtitle": "CONTEXTE",
+              "title": "Vie privée et assistant vocal",
+              "text": "<p>Obtenir des informations rapides, contrôler différents équipements de sa maison, passer un appel sans les mains… Tout ça n’est plus un fantasme, et il était déjà possible d’accéder à certains de ces services sur divers assistants vocaux.</p><p>Mais Orange se positionne aujourd’hui sur le marché des assistants grâce à Djingo, avec à coeur le respecter de la vie privée de ses interlocuteurs, le tout régie par un \"Bible\" (document de référence / caractéristiques fondamentales de Djingo) stricte, créée par Frederic Mit, Elena Tosi Brandi et Pascal Taillard.</p>"
             }
           ]
         },
@@ -75,9 +75,9 @@
           "blocks": [
             {
               "block": "text",
-              "subtitle": "HOW DOES IT WORK?",
-              "title": "A well oiled machine",
-              "text": "<p>Djingo evolved a lot across those two years of development, between Orange’s desire to make a high-quality user-centric product and the reality of technology and marketing that rose along the way.</p><p>I joined one of the Design team in january 2019, and the months that went by allowed me to work on many aspects of that voice assistant.</p><br><p>To stay focused, different teams were created, working Agile and organising weekly meetings, which gave us the opportunity to see how far along everyone was (and anticipate needs).</p>"
+              "subtitle": "COMMENT ÇA MARCHE ?",
+              "title": "Un organisation colossale",
+              "text": "<p>Djingo a grandement évoluée au cours de ces deux ans de réalisation, entre le désir d’Orange de proposer un assistant user-centric de qualité et les réalités technologiques et marketings qui se sont révélées.</p><p>J’ai intégré l’une des équipes de Design travaillant sur Djingo en janvier 2019, et les mois passés sur ce projet m’ont donnés la possibilité de m’atteler à des aspects variés en lien avec un assistant vocal.</p><br><p>Pour assurer la cohérence de l’ensemble du projet, différentes équipes ont été créées et ont travaillées en agile, ce qui nous permettait de savoir l’avancée de chacun (et d’anticiper des besoins), au travers de réunions hebdomadaires.</p>"
             },
             {
               "block": "image",
@@ -91,7 +91,7 @@
           "rowType": "fullsize",
           "blocks": [
             {
-              "block": "image-row",
+              "block": "image",
               "image": "image-2.jpg"
             }
           ]
@@ -101,15 +101,15 @@
           "blocks": [
             {
               "block": "text",
-              "subtitle": "PROJECT",
-              "title": "A rich experience",
-              "text": "<p>My main mission has been to help Thomas Lauby and share the amount of work on the mobile app’s design:</p><ul><li>Question UX & review/make UI for existing services;</li><li>Anticipate other features, pages, screens…;</li><li>Answer to PO’s delivery needs;</li><li>Apply Orange’s Design System...</li></ul><br><p>I also took part in various workshops, as a participant and as organiser:</p><ul><li>Error messages (in-app & vocal);</li><li>Management of multiple accounts / profiles (long term vision, outside of MVP);</li><li>Orange TV skill inside Djingo’s global ecosystem...</li></ul></ul>"
+              "subtitle": "PROJET",
+              "title": "Un projet riche en expériences",
+              "text": "<p>Ma mission principale a été de venir en renfort de Thomas Lauby et se répartir les tâches sur le design de l’application mobile&nbsp;:</p><ul><li>Questionner l’UX et revoir / réaliser l’UI des différents services existants&nbsp;;</li><li>Anticiper d’autres fonctionnalités, une homepage, un écran de paramétrages…&nbsp;;</li><li>Répondre aux demandes delivery des PO&nbsp;;</li><li>Appliquer le Design System Orange (de la charte One-i)...</li></ul>"
             },
             {
               "block": "text",
               "subtitle": "",
               "title": "",
-              "text": "<p>Finally, I had the opportunity to do some CUX for a skill that should be released in 2020.</p><br><p>My work on Djingo isn’t quite over yet since I’m currently working on Djingo’s animacy (visual expressivity of Djingo cross-platform)</p>"
+              "text": "Je suis également intervenue sur différents ateliers, comme participante et comme organisatrice&nbsp;:</p><ul><li>Messages d’erreurs (in-app et à l’oral)&nbsp;;</li><li>Gestion du multi-comptes / profils (avec une vision long terme, hors MVP)&nbsp;;</li><li>Intégration du service TV Orange dans l’écosystème global de Djingo...</li></ul></ul><br><p>Enfin, j’ai aussi eu l’opportunité de faire de l’UX Conversationnelle pour un service qui devrait voir le jour en 2020.</p>"
             }
           ]
         },
@@ -138,42 +138,901 @@
     {
       "id": "improvize",
       "title": "Improvize",
-      "subtitle": "Showcase website for rights managements softwares"
+      "subtitle": "Showcase website for rights managements softwares",
+      "date": "2019 - 2020",
+      "type": "Site vitrine",
+      "skills": "UX/UI Design • Branding • Illustration",
+      "team": "Jacky Fong",
+      "rows": [
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "text",
+              "subtitle": "CONTEXTE",
+              "title": "Le renouveau d’une entreprise",
+              "text": "<p>Depuis 1987, Jean-Christophe Boggio crée des logiciels sur mesure en indépendant, et plus spécifiquement dans le milieu de la musique depuis 1992.</p><p>En 2018, il agrandit son entreprise, rejoint par Emily Louyot, et envisage petit à petit la transformation de son image de marque.</p><p>Ce qui était jusqu’alors le Cabinet Jean-Christophe Boggio devient Improvize, et avec ça est né le besoin d’une nouvelle identité graphique et d’un site internet.</p>"
+            }
+          ]
+        },
+        {
+          "rowType": "fullsize",
+          "blocks": [
+            {
+              "block": "image",
+              "image": "image-1.jpg"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "text",
+              "subtitle": "PROJET",
+              "title": "Nouvelle identité graphique",
+              "text": "<p>Les solutions logicielles proposées par Improvize sont majoritairement spécialisées dans la musique, mais ils proposent également des outils similaires pour l’édition de livres ainsi que des outils complémentaires variés. C’est pourquoi il n’était pas question de représenter la musique de façon trop évidente.</p><p>Le client avait cependant une idée de fond&nbsp;: évoquer l’aspect méthodique, structuré et minutieux inhérent à ses logiciels qui feront, sous peu, partie d’un ensemble / une suite (qui nécessite également sa propre cohérence graphique)&nbsp;; représenté par l’abeille.</p>"
+            },
+            {
+              "block": "text",
+              "subtitle": "",
+              "title": "",
+              "text": "<p>J’ai beaucoup expérimenté sur la façon de visualiser l’abeille, entre le réalisme et l’abstraction, dans la typographie comme dans l'iconographie. </p><p>Je me suis finalement beaucoup inspirée de la nature assez extraordinaire des ruches et de l'artiste Escher, et ai associé une couleur majeur à chaque logiciel (à terme, il y aura 6 logiciels).</p><p>J’ai ainsi décliné les logos des principaux logiciels existants à partir du logo Improvize avec 1 à 2 lettres, déterminées avec le client.</p>"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-2.jpg"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-3.jpg"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-4.jpg"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-5.jpg"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "text",
+              "subtitle": "PROJET",
+              "title": "Présenter les produits",
+              "text": "<p>Le site vitrine d'Improvize avait pour objectif de présenter leurs logiciels (dont la deadline était particulièrement réduite).</p><p>Pour se faire, je suis passée par quelques étapes&nbsp;:</p><ul><li>Sitemap en accord avec les souhaits du client, pour bien comprendre l'enchainement des pages et éviter les redondances&nbsp;;</li><li>Wireframes des pages principales (landing page, page produit, page service) afin d'établir les bases du site puis le reste des wireframes&nbsp;;</li><li>Interface des maquettes finales (en faisant quelques propositions initiales, puis ajustements), illustrations incluses&nbsp;;</li><li>Travail en parallèle avec le développeur (Jacky Fong) dès la création du sitemap pour permettre d'avancer de façon agile, ne pas le retarder, et avoir un MVP à temps.</li></ul>"
+            }
+          ]
+        },
+        {
+          "rowType": "fullsize",
+          "blocks": [
+            {
+              "block": "image",
+              "image": "image-6.png"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "allo",
       "title": "Allo,",
-      "subtitle": "Zero-waste voice assistant"
+      "subtitle": "Zero-waste voice assistant",
+      "date": "2018",
+      "type": "Site vitrine",
+      "skills": "IoT • Service design • UX/UI",
+      "team": "Benjamin Gammaire • Léo Ternoir • Quentin Tschaimanga",
+      "rows": [
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "text",
+              "subtitle": "PROJET",
+              "title": "Un assistant vocal anti-gaspi",
+              "text": "<p>Pour chaque produit qui vous semble bon à jeter, demandez Allo et l’un de ses 5 experts anti-gaspi quoi faire avec de ce produit pour lui éviter la poubelle.</p><br><p>Ces experts sont là pour donner des conseils sur la manière de préserver vos produits ou leur donner une seconde vie. Par exemple, avec une vieille orange, Marin, l’expert de la salle de bain, pourra vous suggérer de faire des tablettes pour votre lave-vaisselle.</p>"
+            },
+            {
+              "block": "text",
+              "subtitle": "CONTEXTE",
+              "title": "Pensée commune",
+              "text": "<p>Each time you have a product that seems to be ready to be thrown away, ask Allo and one of its 5 zero-waste experts what to do with that product to avoid the trash.</p><br><p>Those experts are here to give you advice on how to preserve your products or give them a new life. For example, with an old orange, Marin, the bathroom expert, can suggest a DIY recipe for dishwasher pods.</p>"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "video-embed",
+              "host": "vimeo",
+              "videoCode": "277781869"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "text",
+              "subtitle": "COMMENT ÇA MARCHE ?",
+              "title": "La conception de l'objet",
+              "text": "<p>Après de longues recherches sur une forme douce, dans l’air du temps et singulière, la base de Allo a été conçue sur Fusion360, imprimée en 3D, poncée, primée (par mes soins) pour pouvoir contenir un Raspberry Pi 3, un ReSpeaker 4-mic Array et un haut parleur.</p><p>La partie supérieure a été réalisée à la découpe laser, au Carrefour Numérique, puis vernie.</p><br><p>Le MVP est composé de 3 parties&nbsp;:</p><ul><li>Un frontend (NLU/TSS) avec lequel l’utilisateur interagit vocalement grâce à la technologie Snips, qui capture les informations vocales pertinentes, les traduit en données textuelles et les envoie au backend&nbsp;;</li><li>Un backend (code métier main.py) qui redistribue les textes vers des actions associées, puis reçoit des instructions à donner à l’utilisateur&nbsp;;</li><li>Un backend distant (API/BDD) qui se charge de la recherche, de la sauvegarde et du tri des ressources (profils, produits, astuces…) à transmettre.</li></ul>"
+            },
+            {
+              "block": "image",
+              "type": "1col",
+              "image": "image-1.png",
+              "alt": "Image du speaker"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-2.jpg"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-3.jpg"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-4.jpg"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "text",
+              "subtitle": "CHALLENGES",
+              "title": "Lieu d'intervention",
+              "text": "<p>Allo a beaucoup évolué au fil du projet. Nous nous étions d’abord concentrés sur le gâchis de nourriture en magasin pour voir si nous pouvions avoir un impact avant même que l’achat soit réalisé (auquel cas&nbsp;: aucun gâchis).</p><p>Or, nos recherches (observations en magasin, interview) nous ont prouvés que l’impulsivité que représentent généralement l’achat en magasin n’est pas (ou difficilement) contrôlable (60% des personnes interrogées improvisent leurs courses). </p><br><p>Nous avons restreint notre champ d’action à la maison, après achat, avant la case « poubelle ». En interrogeant les utilisateurs (« Tableau des problèmes », formulaire quantitatif, interviews « jeu de rôle »), autre que la vaisselle, le gâchis est un point de friction très fort. Les utilisateurs ne savent pas quoi faire de leurs restes, ne sont pas toujours équipés pour les congeler, et sont contraints de jeter (60% des personnes interrogées jettent régulièrement des aliments). </p>"
+            }
+          ]
+        },
+        {
+          "rowType": "fullsize",
+          "blocks": [
+            {
+              "block": "image",
+              "image": "image-5.jpg"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "text",
+              "subtitle": "CHALLENGES",
+              "title": "Cible privilégiée",
+              "text": "<p>Se sont ensuite distingués 5 catégories d’utilisateurs&nbsp;:</p><ul><li>1. « Je veux que ça aille vite »&nbsp;: la cuisine et l’alimentation saine n’est pas une priorité, le recyclage non plus&nbsp;;</li><li>2. « Je fais quelques efforts, quand j’ai le temps »&nbsp;: il y a une prise de conscience sur la santé personnelle et celle de la planète, mais les efforts sont difficiles à faire et les achats toujours compulsifs&nbsp;;</li><li>3. « Je cherche à manger des produits de qualité »&nbsp;: la prise de conscience est là, l’utilisateur commence à intégrer certains procédés dans sa routine mais manque d’idées pour savoir comment recycler&nbsp;;</li></ul>"
+            },
+            {
+              "block": "text",
+              "subtitle": "",
+              "title": "",
+              "text": "<li>4. « Je n’achète quasiment que local / en AMAP »&nbsp;: l’achat est plus raisonnable, selon les besoins, avec liste de courses et des idées assez clairs sur l’utilisation de ces achats&nbsp;;</li><li>5. « Je suis un régime alimentaire stricte »&nbsp;: un peu hors catégorie, car l’achat est particulièrement régulé, précis, et aucun gâchis n’est fait.</li></ul><p>Grâce à ces éléments, nous identifions le profil 2 et 3 comme ceux qui seront le plus intéressés, réceptif.</p>"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-6.png"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "text",
+              "subtitle": "COMMENT ÇA MARCHE ?",
+              "title": "La conception de l'objet",
+              "text": "<p>En effectuant un premier test qualitatif in-situ du MVP dans la cuisine, plusieurs utilisateurs nous ont remontés vouloir des idées pour utiliser leurs déchets / restes / produits périmées ailleurs que dans la cuisine. C’est ainsi que nous sommes passés à un assistant plus polyvalent doté de 5 experts&nbsp;:</p><ul><li>Paprika, pour la cuisine&nbsp;;</li><li>Marin, pour la salle de bain&nbsp;;</li><li>Polochon, pour la chambre&nbsp;;</li><li>Pépin, pour le jardin et les plantes&nbsp;;</li><li>Jack, pour les produits électroniques.</li></ul>"
+            },
+            {
+              "block": "image",
+              "type": "1col",
+              "image": "image-7.png",
+              "alt": "Image du speaker"
+            }
+          ]
+        },
+        {
+          "rowType": "fullsize",
+          "blocks": [
+            {
+              "block": "image",
+              "image": "image-8.jpg"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "text",
+              "subtitle": "CHALLENGES",
+              "title": "Design principles",
+              "text": "<p>De tous ces tests et les problèmes rencontrés (trouver l’endroit où Allo serait le plus adapté, garder les conversations naturelles et privées, éviter de transmettre un sentiment de pression ou de moralisation…) ce sont dégagés 6 Design principles&nbsp;:</p><ul><li><b>Bienveillance</b>&nbsp;: Allo vous aide à trouver des idées simples,accessibles et frugales pour chaque produit qui vous paraît abîmé.</li><li><b>Privé</b>&nbsp;: Grâce à la technologie de Snips, les discussions que vous avez avec Allo restent avec Allo, stockée localement.</li><li><b>Custom</b>&nbsp;: Nos habitudes, envies et goûts varient d’une personne à une autre, et Allo s’adapte et apprend pour suggérer les astuces les plus adaptées.</li></ul>"
+            },
+            {
+              "block": "text",
+              "subtitle": "",
+              "title": "",
+              "text": "<ul><li><b>Pédagogique</b>&nbsp;: Allo est votre assistant dans lequel sont contenus 5 experts, un par pièce de la maison, afin que vous puissiez apprendre, pièce après pièce, les différentes problématiques liées au gaspillage dans la maison et comment y remédier.</li><li><b>Au bon moment</b>&nbsp;: Les achats liés à l’envie et non au besoin n’étant pas contrôlable, Allo s’intègre parfaitement dans le cycle de la vie d’un produit qui vient d’être acheté, et ce jusqu’à-ce qu’il soit presque jeté.</li><li><b>Au bon endroit</b>&nbsp;: La majeure partie du gaspillage alimentaire provient de nos maisons, c’est pour cette raison que c’est dans la maison que Allo convient le mieux, dans la pièce de votre choix.</li></ul>"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-9.jpg"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-10.jpg"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-11.jpg"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "la-redoute",
       "title": "La Redoute Intérieurs",
-      "subtitle": "Interactive device in-store"
+      "subtitle": "Interactive device in-store",
+      "date": "2017",
+      "type": "Dispositif in-store",
+      "skills": "User research • UX/UI",
+      "team": "Joshfire • USERADGENTS",
+      "rows": [
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "text",
+              "subtitle": "CONTEXTE",
+              "title": "Opportunité",
+              "text": "<p>La Redoute Intérieurs souhaitait profiter de l’ouverture de nouvelles boutiques à Lyon et Carré Sénart pour proposer une expérience multicanale en point de vente.</p>"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "video-embed",
+              "host": "youtube",
+              "videoCode": "6zUgppfKIjk"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "text",
+              "subtitle": "PROJET",
+              "title": "Title",
+              "text": "<p>Nous avons imaginé, avec USERADGENTS, un dispositif interactif permettant au client de s’inspirer, d’accéder à la gamme complète des produits La Redoute Intérieurs et d’effectuer sa sélection à emporter (impression et partage e-mail). </p><br><p>Nous avons commencé par une étude terrain dans les magasins La Redoute Intérieurs et AMPM à Paris.</p><br><p>Quelques-un de nos constats&nbsp;:</p><ul><li>Les clients viennent principalement s’inspirer ou voir la qualité des matériaux&nbsp;;</li><li>Beaux produits mais boutiques trop petites / peu fournies&nbsp;;</li><li>Très peu de vendeurs (attente longue pour les clients, gestion de boutique très difficile pour les vendeurs)&nbsp;;</li><li>Aucune information sur le stock des produits en ligne&nbsp;;</li><li>Informations sur les produits pas toujours à jour voire disponibles (étiquettes manquantes)...</li></ul>"
+            }
+          ]
+        },
+        {
+          "rowType": "fullsize",
+          "blocks": [
+            {
+              "block": "image",
+              "image": "image-1.jpg"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "text",
+              "subtitle": "PROJET",
+              "title": "Inspiration & informations",
+              "text": "<p>Suite à cette étude, nous avons réalisé une Customer journey, effectué des recommandations ainsi que des use cases quant au type de dispositif qui pourrait intéresser les clients, et les informations clés disponibles dans ce dispositif.</p><p>Ainsi, en nous basant sur les possibilités actuelles et les réalités de l’infrastructure technique LRI, nous avons designé l’expérience globale, le design graphique de l’interface ainsi que celui de la console, et défini la solution technique.</p><br><p>Ce POC sera déployé dans toutes les boutiques La Redoute Intérieurs. À terme, le dispositif permettra un parcours d’achat complet, pour une expérience omnicanale sans couture.</p>"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-2.jpg"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-3.jpg"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "text",
+              "subtitle": "COMMENT ÇA MARCHE ?",
+              "title": "Simple & efficace",
+              "text": "<p>L’interface tactile (connectée aux données du site e-commerce) et l’imprimante sont dissimulées dans une console en pin massif et en acier brut sur mesure, des matériaux qui s’intègrent parfaitement au design des nouveaux magasins. </p>"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-4.jpg"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-5.jpg"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-6.jpg"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "1col",
+              "image": "image-7.jpg"
+            },
+            {
+              "block": "image",
+              "type": "1col",
+              "image": "image-8.jpg"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "stiqr",
       "title": "STIQR",
-      "subtitle": "An app to experience museums differently"
+      "subtitle": "Une app pour visiter les musées autrement",
+      "date": "2017",
+      "type": "Mobile app",
+      "skills": "AR • UX/UI",
+      "team": "Maximilien Jourdain • Zoë Leloutre • Kévin Moutier",
+      "rows": [
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "text",
+              "subtitle": "CONTEXTE",
+              "title": "Étudier les comportements",
+              "text": "<p>Stiqr était le projet de fin de Master 1 à Gobelins, en partenariat avec la BPI (Bibliothèque Publique d’Information).</p><br><p>Nous avons basé notre concept sur la multitude d’interviews réalisées dans des musées, sur un public jeune et sur leurs habitudes. D’après nos analyses, ils aiment aller au musée, mais pas seuls: bien qu’ils aient tendance à faire la visite chacun à son rythme, ils aiment se retrouver régulièrement pour échanger de points de vue.</p>"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "video-embed",
+              "host": "vimeo",
+              "videoCode": "221714503"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "text",
+              "subtitle": "PROJET",
+              "title": "Faire le tour pour mieux comprendre",
+              "text": "<p>Nous avons pensé Stiqr comme une façon simple et fun de motiver un public jeune à aller voir plus d’expositions. Cette app permet de scanner une oeuvre d’art avec votre téléphone, et de voir, en réalité augmentée, ce que les autres visiteurs en ont pensé au travers d’emojis très expressifs. Et, si vous le souhaitez, vous pouvez ajouter votre pierre à l’édifice.</p><br><p>L’idée, c’est d’apprendre à s’expliquer autrement, aller au delà du « j’aime » ou « je n’aime pas ». Ça permet également de savoir si vous partagez un intérêt, une adoration ou une indifference avec quelqu’un d’autre et d’explorer un point de vue différent.</p>"
+            }
+          ]
+        },
+        {
+          "rowType": "fullsize",
+          "blocks": [
+            {
+              "block": "image-row",
+              "image": "image-1.jpg"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "text",
+              "subtitle": "PROJET",
+              "title": "Objectifs",
+              "text": "<p>Nous avions quatre objectifs principaux lors de la réalisation de Stiqr&nbsp;:</p><ul><li>La démocratisation du musée auprès d’une cible jeune&nbsp;;</li><li>Rendre la visite ludique et plus attractive&nbsp;;</li><li>Exprimer différentes émotions face aux oeuvres (en dehors du « j’aime » / « je n’aime pas »)&nbsp;;</li><li>Impliquer davantage l’utilisateur dans sa visite grâce à la réalité augmentée.</li></ul>"
+            },
+            {
+              "block": "text",
+              "subtitle": "COMMENT ÇA MARCHE ?",
+              "title": "La magie de la RA",
+              "text": "<p>Après avoir sélectionné l’exposition dans laquelle on se trouve, il devient possible de scanner les oeuvres grâce à la reconnaissance d’image offerte par Vuforia. Vous pouvez alors voir les emojis des personnes étant passées par là avant vous en réalisé augmentée.</p>"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-2.jpg"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "cushy",
       "title": "Cushy!",
-      "subtitle": "Interactive binging cushion"
+      "subtitle": "Le coussin interactif des Netflix-addicts",
+      "date": "2017",
+      "type": "Coussin interactif",
+      "skills": "IoT • UX/UI • Arduino",
+      "team": "Léo Ternoir • Jacky Fong • Léna Scaravella • Thomas Boulongne",
+      "rows": [
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "text",
+              "subtitle": "CONTEXTE",
+              "title": "Un projet court & fun",
+              "text": "<p>Cushy! est un projet qui s’est étalé sur environ 1 mois à Gobelins, l’école de l’image. Nous avions pour seule instruction de faire un objet connecté.</p><p>Compte tenu du peu de temps à notre disposition, nous nous sommes rapidement décidé sur quelque chose de fun, avec du challenge mais faisable dans le temps imparti avec un intérêt commun: les films et les séries TV.</p>"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "video-embed",
+              "host": "vimeo",
+              "videoCode": "202369823"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "text",
+              "subtitle": "PROJET",
+              "title": "Le coussin des indécis",
+              "text": "<p>Cushy, c’est un coussin que vous poussez presser, caresser ou frapper alors que vous êtes confortablement installé.e dans votre canapé et que vous ne savez pas quoi regarder à la télé. Il pourra vous dire ce qui correspond le mieux à votre humeur. Plus besoin de réfléchir pendant des heures, grâce à une interface facile à utiliser, vous serez très vite plongé dans la série qui vous va le mieux. </p>"
+            }
+          ]
+        },
+        {
+          "rowType": "fullsize",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-2.jpg"
+            },
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-3.jpg"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "text",
+              "subtitle": "COMMENT ÇA MARCHE ?",
+              "title": "Un capteur discret, fait maison",
+              "text": "<p>Après beaucoup de recherches, d’essais et d’échecs. nous avons réussi à créer notre propre capteur à partir de Veloutât et de rubans de cuivre, capable de cartographier la position et la force de votre main sur la surface du coussin. C’est grâce à ce capteur home-made que Cushy sera en mesure de détecter votre humeur selon vos gestes envers lui. </p><p>Nous avons également designé et réalisé une housse de coussin en 100% coton, dont les patterns ont été réalisés à la peinture pour tissu d’un côté et à l’impression de l’autre pour correspondre à notre identité.</p>"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-4.jpg"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-5.jpg"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-6.jpg"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "marly",
       "title": "Parfums de Marly",
-      "subtitle": "Interactive window"
+      "subtitle": "Atelier de parfumeur interactif",
+      "date": "2016",
+      "type": "Vitrine interactive",
+      "skills": "Mobile app • UI",
+      "team": "Soixante Circuits",
+      "rows": [
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "text",
+              "subtitle": "CONTEXTE",
+              "title": "Un atelier discret",
+              "text": "<p>Pour leur boutique rue Cambon, Parfums de Marly souhaitait recréer l’ambiance authentique d’un atelier de parfumeur du 18e siècle visible depuis la rue.</p>"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "video-embed",
+              "host": "vimeo",
+              "videoCode": "173030067"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "text",
+              "subtitle": "PROJET",
+              "title": "Faites votre propre parfum",
+              "text": "<p>Nous avons réalisé une expérience immersive, réaliste et élégante, sur-mesure, permettant aux passants d’interagir avec la vitrine de la boutique avec leur téléphone, prenant ainsi part à la confection d’un parfum en choisissant les notes de leur choix.</p><p>En postant leur portrait sur Instagram, les passants pouvaient aussi le voir se matérialiser sous la forme d’une peinture rococo numérique à l’intérieur de la vitrine.</p>"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-1.jpg"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "text",
+              "subtitle": "COMMENT ÇA MARCHE ?",
+              "title": "Magie cachée",
+              "text": "<p>Un QR code autocollant placé sur la vitrine permettait aux passants de le scanner pour lancer l’expérience et contrôler un plateau tournant sous lequel se trouvaient un moteur et une machine à fumée. </p>"
+            },
+            {
+              "block": "text",
+              "subtitle": " ",
+              "title": " ",
+              "text": "<p>Petite anecdote: la vitrine elle-même devait être interactive, grâce à un film tactile posée sur celle-ci. Or, le jour de la pose, le film s’est avéré être incompatible avec l’épaisseur de la vitrine de Parfums de Marly.</p><p>C’est pour cette raison que nous avons rapidement créé une solution alternative avec un QR Code et une application téléphone.</p>"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-2.png"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "lost-elements",
       "title": "Lost Elements",
-      "subtitle": "Tablet game"
+      "subtitle": "Jeu tablette",
+      "date": "2016",
+      "type": "Jeu tablette",
+      "skills": "IoT • UI • Unity",
+      "team": "Anthelme Dumont • Mélanie Lo • Kirgan Somville",
+      "rows": [
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "text",
+              "subtitle": "HISTOIRE",
+              "title": "À l’aube du monde,...",
+              "text": "<p>...les quatre éléments fondamentaux ne pouvaient être contrôlés. L’eau, le soleil, le vent et la terre se déchainèrent sur la planète, ravageant tout sur leur passage. Ces éléments étant nécessaires à la vie, on raconte qu’une entité appelée Anjä naquit des entrailles de la terre. Elle avait pour redoutable tâche de rassembler et contenir ces éléments dans une ancienne relique et devenir leur gardienne. </p><br><p>Siècle après siècle, la nature finie par se calmer. Anja disparu, laissant la relique cachée au sein d’un temple dont le nom reste inconnu. Elle n’avait cependant pas prévu l’apparition de l’humanité… et de leur volonté à voler la relique pour leurs propres besoins.</p>"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "video-embed",
+              "host": "vimeo",
+              "videoCode": "173657249"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "text",
+              "subtitle": "CONTEXTE",
+              "title": "Jouer, c'est du sérieux!",
+              "text": "<p>Les phénomènes climatiques que l’on voit apparaître de nos jours et les problèmes qu’ils engendrent sont complexes et les liens qu’ils peuvent avoir les uns avec les autres peuvent sembler imperceptibles. Et bien qu’un pourcentage significatif de la population est inquiet concernant le réchauffement climatique, beaucoup de notions à ce sujet restent difficiles à comprendre et à appréhender. C’est pour ces raisons que, pour ce projet de fin d’année à Gobelins, nous nous sommes concentrés sur la meilleure manière d’expliquer, de manière ludique et pédagogique, les problèmes climatiques et environnementaux actuels et leurs enjeux.</p>"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-1.jpg"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "text",
+              "subtitle": "PROJET",
+              "title": "Réfléchir en jouant",
+              "text": "<p>Lost Elements est un jeu de réflexion sur tablette accompagné d’un object connecté qui vous fera embarquer dans un monde à la fois onirique et très proche des réalités actuelles.</p><p>Afin de permettre au joueur d’en apprendre plus sur le dérèglement climatique, il va devoir récupérer chaque élément pour apprendre à les utiliser petit à petit et ainsi résoudre les énigmes que chaque niveau renferme. </p><p>Le jeu est composé de 4 chapitres dans lesquels sont contenus un nombre prédéterminé de niveaux. À chaque chapitre, le joueur récupère un nouvel élément qui va lui permettre de résoudre les énigmes suivantes, mais aussi lui compliquer la tâche (contrôler un seul élément peut déjà s’avérer ardu, 4 éléments demande de la minutie et de la patience..!)</p>"
+            },
+            {
+              "block": "text",
+              "subtitle": " ",
+              "title": " ",
+              "text": "<p>La volonté de manipuler les éléments avec un objet est cruciale&nbsp;: cet objet permet de faire le lien entre un concept intangible avec un objet physique, bien réel, qui a un impact lorsque je le manipule (en comparaison avec la façon dont une action réalisée par nous, par la société, fini par avoir des répercussions sur un concept qui peut paraître flou, lointain).</p>"
+            }
+          ]
+        },
+        {
+          "rowType": "fullsize",
+          "blocks": [
+            {
+              "block": "image-row",
+              "image": "image-2.jpg"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "text",
+              "subtitle": "COMMENT ÇA MARCHE ?",
+              "title": "Plus on a de techs, plus on s'amuse",
+              "text": "<p>Le jeu a entièrement été réalisé sur Unity. Il est connecté à l’objet et son Photon Particle (Arduino-like) en wifi et détecte le changement d’éléments grâce à 4 capteurs à effet hall et un aimant, ainsi qu’un potentiomètre pour régler l’intensité de l’élément sélectionné. </p>"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-3.jpg"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "1col",
+              "image": "image-4.jpg"
+            },
+            {
+              "block": "image",
+              "type": "1col",
+              "image": "image-5.jpg"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "orianna",
       "title": "Orianna",
-      "subtitle": "Animated cosplay"
+      "subtitle": "Animated cosplay",
+      "date": "2015",
+      "type": "Animated cosplay",
+      "skills": "IoT • Maker • Arduino",
+      "team": "Philippe Ravaux (3D model) • Sarah Goldberg (3D print)",
+      "rows": [
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "text",
+              "subtitle": "HISTOIRE",
+              "title": "Tragédie d'une jeune fille",
+              "text": "<p>Autrefois une jeune fille curieuse, de chair et d'os, Orianna est aujourd'hui une merveille de technologie entièrement mécanisée. Elle est tombée gravement malade à la suite d'un accident dans les quartiers inférieurs de Zaun, et son corps défaillant a été remplacé petit à petit par des prothèses perfectionnées. Accompagnée par une sphère extraordinaire qu'elle a elle-même créée pour lui servir de compagnon et de protectrice, Orianna est désormais libre d'explorer la merveilleuse ville de Piltover et ce qui se trouve au-delà.</p>"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "video-embed",
+              "host": "youtube",
+              "videoCode": "XXzo9GRlFNo"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "text",
+              "subtitle": "CONTEXTE & PROJET",
+              "title": "Une ligne fine entre hobby et travail",
+              "text": "<p>Le Cosplay (de « Costume » et « Playing ») est un hobby encore peu connu. Beaucoup de préjugés y restent associé mais il s’agit, pour moi, d’un moyen de me challenger et de dépasser mes limites à chaque projet.</p><br><p>J’ai réalisé Orianna, provenant du jeu League of Legends, dans le but de poursuivre mon expérimentation avec l’Arduino et les moteurs, m’improvisant ingénieure pour les 400 heures de travail passées à sa création.</p><p>Comme vous pourrez le constater, je considère que le cosplay est un travail à part entière que je traite avec autant d’implication et de motivation qu’un projet de design interactif.</p>"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-1.jpg"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "text",
+              "subtitle": "COMMENT ÇA MARCHE ?",
+              "title": "Des techniques pluridisciplinaires",
+              "text": "<p>Le costume a été créé à 100% de mes mains avec comme matériaux principaux de la mousse EVA, du Worbla (un thermoplastique), du tissu, et un peu d’électronique (2 Arduino Uno, 6 moteurs, 3 batteries). J’ai designé tous les mécanismes et ai demandé de l’aide à Philippe Ravaux pour les modèles 3D du rail qui permet de faire tourner la jupe, ainsi qu’à Sarah Goldberg pour l’impression de ce rail.</p>"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-2.gif"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
