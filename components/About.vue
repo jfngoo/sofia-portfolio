@@ -96,6 +96,10 @@ export default {
         padding: 100px;
       }
 
+      @media screen and (max-width: $breakpoint-sm) {
+        padding: 50px;
+      }
+
       & > .text {
         display: inline-block;
         width: 550px;
