@@ -63,6 +63,11 @@ export default {
 .contact {
   font-size: $f18;
   line-height: $f28;
+  padding: 50px;
+
+  @media screen and (max-width: $breakpoint-md) {
+    padding: 100px;
+  }
 
   @media screen and (max-width: $breakpoint-sm) {
     padding: 25px 45px;
@@ -70,8 +75,8 @@ export default {
 
   & > .title {
     font-family: $zilla_slab;
-    font-size: $f48;
-    line-height: $f44;
+    font-size: $f56;
+    line-height: $f48;
     margin-bottom: 48px;
     margin-top: 45px;
 

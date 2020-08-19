@@ -2,7 +2,6 @@
   <div class="about-and-contact">
     <Sidebar />
     <About />
-    <Contact />
   </div>
 </template>
 
@@ -21,7 +20,11 @@ export default {
   background: $grey4;
   font-family: $barlow;
   color: $font_color;
-  padding: 146px 0 60px $menu_width;
+  padding: 146px 0 296px $menu_width;
+
+  @media all and (max-width: $breakpoint-md) {
+    padding: 146px 0 100px $menu_width;
+  }
 
   @media all and (max-width: $breakpoint-sm) {
     padding: 0;
