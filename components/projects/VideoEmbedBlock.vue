@@ -6,8 +6,8 @@
     >
       <iframe
         :src="'https://player.vimeo.com/video/' + videoCode"
-        width="640px"
-        height="360"
+        :width="ratioWidth"
+        :height="ratioHeight"
         frameborder="0"
         webkitallowfullscreen
         mozallowfullscreen
@@ -51,6 +51,8 @@
 </template>
 
 <script>
+import debounce from 'lodash.debounce'
+
 export default {
   name: 'VideoEmbedBlock',
 
@@ -66,6 +68,48 @@ export default {
     videoCode: {
       type: String,
       default: ''
+    },
+    videoWidthHeightRatio: {
+      type: Number,
+      default: 1.777 // 16/9
+    },
+    videoTotalWidthRatio: {
+      type: Number,
+      default: 1.4
+    }
+  },
+
+  data () {
+    return {
+      width: 300,
+      height: 300
+    }
+  },
+
+  computed: {
+    debouncedHandleResize () {
+      return debounce(this.handleResize, 100)
+    },
+
+    ratioWidth () {
+      return this.width / this.videoTotalWidthRatio
+    },
+
+    ratioHeight () {
+      const ratioHeight = this.ratioWidth / this.videoWidthHeightRatio
+      return ratioHeight > this.height / 1.2 ? this.height / 1.2 : ratioHeight
+    }
+  },
+
+  mounted () {
+    window.addEventListener('resize', this.debouncedHandleResize)
+    this.handleResize()
+  },
+
+  methods: {
+    handleResize () {
+      this.width = window.innerWidth
+      this.height = window.innerHeight
     }
   }
 }
@@ -77,6 +121,7 @@ export default {
 .video-embed-block {
   display: block;
   width: 100%;
+  overflow: hidden;
 
   .video {
     text-align: center;

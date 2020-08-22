@@ -43,12 +43,24 @@ export default {
   align-items: center;
   flex: 0.5;
 
+  @media all and (max-width: $breakpoint-sm) {
+    margin-top: 150px;
+
+    & + .image-block {
+      margin-top: 0;
+    }
+  }
+
   & > img {
     max-width: 100%;
   }
 
   &.full {
     flex: 1;
+
+    @media all and (max-width: $breakpoint-sm) {
+      margin-top: 0;
+    }
 
     & > img {
       width: 100%;
@@ -59,7 +71,13 @@ export default {
 .fullsize {
   & > .block  {
     flex: 1;
+
     & > .image-block {
+
+      @media all and (max-width: $breakpoint-sm) {
+        margin-top: 0;
+      }
+
       & > img {
         width: 100%;
       }

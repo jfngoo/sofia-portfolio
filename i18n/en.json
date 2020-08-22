@@ -274,7 +274,9 @@
             {
               "block": "video-embed",
               "host": "vimeo",
-              "videoCode": "277781869"
+              "videoCode": "277781869",
+              "videoWidthHeightRatio": 1,
+              "videoTotalWidthRatio": 2
             }
           ]
         },
@@ -612,7 +614,9 @@
             {
               "block": "video-embed",
               "host": "vimeo",
-              "videoCode": "221714503"
+              "videoCode": "221714503",
+              "videoWidthHeightRatio": 1.777,
+              "videoTotalWidthRatio": 1.4
             }
           ]
         },
@@ -691,7 +695,9 @@
             {
               "block": "video-embed",
               "host": "vimeo",
-              "videoCode": "202369823"
+              "videoCode": "202369823",
+              "videoWidthHeightRatio": 1.777,
+              "videoTotalWidthRatio": 1.4
             }
           ]
         },
@@ -790,7 +796,9 @@
             {
               "block": "video-embed",
               "host": "vimeo",
-              "videoCode": "173030067"
+              "videoCode": "173030067",
+              "videoWidthHeightRatio": 1.777,
+              "videoTotalWidthRatio": 1.4
             }
           ]
         },
@@ -864,7 +872,9 @@
             {
               "block": "video-embed",
               "host": "vimeo",
-              "videoCode": "173657249"
+              "videoCode": "173657249",
+              "videoWidthHeightRatio": 1.777,
+              "videoTotalWidthRatio": 1.4
             }
           ]
         },
