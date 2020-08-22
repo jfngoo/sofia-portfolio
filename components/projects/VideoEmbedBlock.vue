@@ -38,8 +38,8 @@
     >
       <iframe
         :src="url"
-        width="300"
-        height="476"
+        :width="ratioWidth"
+        :height="ratioHeight"
         style="border:none;overflow:hidden"
         scrolling="no"
         frameborder="0"

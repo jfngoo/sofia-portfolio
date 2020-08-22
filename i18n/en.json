@@ -65,7 +65,9 @@
             {
               "block": "video-embed",
               "host": "facebook",
-              "url": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FOrange.France%2Fvideos%2F795742717528294%2F&show_text=0&width=476"
+              "url": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FOrange.France%2Fvideos%2F795742717528294%2F&show_text=0&width=476",
+              "videoWidthHeightRatio": 1,
+              "videoTotalWidthRatio": 2
             }
           ]
         },
@@ -475,7 +477,9 @@
             {
               "block": "video-embed",
               "host": "youtube",
-              "videoCode": "6zUgppfKIjk"
+              "videoCode": "6zUgppfKIjk",
+              "videoWidthHeightRatio": 1.777,
+              "videoTotalWidthRatio": 1.4
             }
           ]
         },
@@ -989,7 +993,9 @@
             {
               "block": "video-embed",
               "host": "youtube",
-              "videoCode": "XXzo9GRlFNo"
+              "videoCode": "XXzo9GRlFNo",
+              "videoWidthHeightRatio": 1.777,
+              "videoTotalWidthRatio": 1.4
             }
           ]
         },
