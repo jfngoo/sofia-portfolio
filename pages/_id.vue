@@ -59,8 +59,8 @@
               :host="block.host"
               :url="block.url"
               :video-code="block.videoCode"
-              :video-width-height-ratio="parseFloat(block.videoWidthHeightRatio)"
-              :video-total-width-ratio="parseFloat(block.videoTotalWidthRatio)"
+              :video-width-height-ratio="parseFloat(block.videoWidthHeightRatio) || 1.77"
+              :video-total-width-ratio="parseFloat(block.videoTotalWidthRatio) || 1.4"
             />
           </div>
         </div>

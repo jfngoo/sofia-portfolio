@@ -22,8 +22,8 @@
       <div class="video-container">
         <iframe
           class="youtube-iframe"
-          width="560"
-          height="315"
+          :width="ratioWidth"
+          :height="ratioHeight"
           :src="'https://www.youtube.com/embed/' + videoCode"
           framborder="0"
           allowfullscreen
