@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <Topbar />
     <Sidebar />
     <div class="intro-container">
       <Intro />

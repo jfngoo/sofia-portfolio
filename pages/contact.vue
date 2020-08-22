@@ -1,5 +1,6 @@
 <template>
   <div class="about-and-contact">
+    <Topbar />
     <Sidebar />
     <About />
   </div>

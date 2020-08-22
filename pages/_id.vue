@@ -1,5 +1,6 @@
 <template>
   <div class="project">
+    <Topbar />
     <Sidebar />
     <div class="project-container">
       <div
