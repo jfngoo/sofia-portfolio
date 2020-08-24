@@ -9,28 +9,45 @@
       id="projects"
       class="projects-container"
     >
-      <nuxt-link
+      <div
         v-for="project in projects"
         :key="project.title"
         :to="localePath(`/${project.id}`)"
+        @click="animate(project.id, $el)"
       >
         <ProjectThumbnail
           :id="project.id"
+          :ref="project.id"
+          :class="`thumbnail-${project.id}`"
           :title="project.title"
           :subtitle="project.subtitle"
         />
-      </nuxt-link>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 import Vue from 'vue'
+import anime from 'animejs'
 
 export default Vue.extend({
   computed: {
     projects () {
       return this.$i18n.messages[this.$i18n.locale].projects
+    }
+  },
+
+  methods: {
+    animate (project, el) {
+      console.log(el)
+      anime({
+        targets: `.thumbnail-${project}`,
+        marginLeft: 0,
+        marginRight: 0,
+        duration: 200,
+        easing: 'easeOutQuad'
+      })
     }
   },
 

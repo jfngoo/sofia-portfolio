@@ -16,6 +16,8 @@
     "test:e2e": "cross-env TEST=e2e ava ./test/e2e/**/*"
   },
   "dependencies": {
+    "animejs": "^3.2.0",
+    "gsap": "^3.5.0",
     "lodash.debounce": "^4.0.8",
     "nuxt": "^2.14.2",
     "nuxt-i18n": "^6.13.9"
