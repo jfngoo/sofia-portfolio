@@ -1,7 +1,7 @@
 {
-  "title": "Sofia Boggio to Ground controle",
-  "subtitle": "Designer interactif freelance, je suis spécialisée en UX Design, mais pas seulement.",
-  "about": "Du Service design à l’UI, du motion design au montage vidéo, ou du design produit à l’IoT ; Je suis une maker curieuse et passionnée, avec pour ambition d’apporter une dimension ludique et/ou pédagogique dans mon travail.",
+  "title": "Hello, I'm Sofia Boggio",
+  "subtitle": "Je suis <b>Designer interactif freelance</b>, spécialisée en UX Design... et tellement plus encore!",
+  "about": "Du Service design à l’UI, du motion design au montage vidéo, ou du design produit à l’IoT ; Je suis une maker curieuse et passionnée, avec pour ambition d’apporter une dimension ludique et/ou pédagogique à mes projets.",
   "view-project": "Voir le projet",
   "a-project-with": "Un projet avec",
   "next": "Suivant",
@@ -41,6 +41,116 @@
   },
   "projects": [
     {
+      "id": "craftplan",
+      "title": "Craftplan",
+      "subtitle": "Une app cross platform pour penser, plannifier, et créer",
+      "date": "2020",
+      "type": "Application mobile & desktop",
+      "skills": "User Research • UX & UI Design",
+      "team": "Brice Culas",
+      "rows": [
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "text",
+              "subtitle": "PROJET",
+              "title": "3 Étapes vers l'harmonie",
+              "text": "<p>Craftplan est une application mobile & desktop faite pour simplifier l’organisation de vos projets et vous permettre d’apprécier plus pleinement le processus de réalisation.</p><br><p>Elle se compose de 3 fonctionnalités principales :</p><ul><li>Gestion de projet;</li><li>Inventaire;</li><li>Planning.</li></ul><br><p>Cette app a été conçue par des cosplayers pour des cosplayers et tous types de makers / travailleurs manuels. C’est l’une des raisons pour lesquelles il y a eu une longue réflexion de fond et un travail d’UX research poussé (et encore en cours).</p>"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-01.jpg"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "text",
+              "subtitle": "CONTEXTE",
+              "title": "Remettre de l'ordre",
+              "text": "<p>Être un cosplayer, un accessoiriste ou n’importe qui de créatif peut s’avérer éprouvant. Votre esprit a tendance à vagabonder, s’emballer par tout ce que vous voyez et vivez, ce qui rend la concentration difficile sur un seul projet ou une seule tâche.</p><br><p>Certains n’ont aucun mal avec un processus un peu désordonné, soit parce qu’ils travaillent vite (permettant de finir plus vite pour embrayer sur le projet suivant), soit à l’aise avec l’idée d’avoir plusieurs chantiers en cours sans se retrouver trop distrait.e ou désintéressé.e.</p><p>D’autres (comme moi) ont besoin de quelque chose pour les aider à rester concentré, voir la globalité du projet, évaluer le stade du projet et avoir une idée à peu près claire de deadline.</p>"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-02.jpg"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-03.jpg"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-04.jpg"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "text",
+              "subtitle": "USER RESEARCH",
+              "title": "De quantité à qualité",
+              "text": "<p>J’ai organisé ma recherche utilisateur de la façon suivante:</p><br><ul><li>• Analyse de la concurrence (surtout Cosplanner)</li><li>Recherche quantitative (Sondages sur Instagram & récolte de reviews Cosplanner)</li><li>Tests d’utilisabilité à distance avec 5 participants (sur Discord)</li><li>Focus sur l’accessibilité avec 2 participants (questions & passage sur l'app globale)</li><li>Focus group informel avec 3 participants</li><br><p>Les prochaines étapes sont encore à suivre, dès que nous aurons un prototype fonctionnel.</p>"
+            },
+            {
+              "block": "text",
+              "subtitle": "OPPORTUNITÉ",
+              "title": "La concurrence",
+              "text": "<p>Il existe déjà deux applications permettant d’organiser la création de costumes : Cosplanner & Cosflowy (abandonnée)</p><p>Cosplanner a rapidement pris possession du marché parce qu’il y avait un besoin assez clair avec des fonctionnalités dédiées aux cosplayers, mais l’absence de mise à jour la rend aujourd’hui obsolète. </p><br><p>Les plus gros pain points que j’ai relevés (et vécus):</p><br><ul><li>Non supporté par les nouveaux téléphones;  </li><li>Pas de synchronisation automatique entre téléphone et ordinateur;</li><li>Sauvegarde de données manuelle (du mobile à l’app desktop, un projet à la fois…);  </li><li>Conflits entre mobile & desktop app;  </li><li>Pas de sauvegarde de données locale ou liée à un compte;  </li><li>Abonnement mensuel pour importer les sauvegardes;  </li><li>Application mobile qui glitch & crash;  </li><li>Pourrait bénéficier d’une meilleure organisation globale;  </li><li>Peu accessible;  </li><li>Quelques ajustements mineurs."
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-05.jpg"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-06.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "djingo",
       "title": "Speaker Djingo",
       "subtitle": "Application mobile pour l'assistant vocal d'Orange",
@@ -56,7 +166,7 @@
               "block": "text",
               "subtitle": "CONTEXTE",
               "title": "Vie privée et assistant vocal",
-              "text": "<p>Obtenir des informations rapides, contrôler différents équipements de sa maison, passer un appel sans les mains… Tout ça n’est plus un fantasme, et il était déjà possible d’accéder à certains de ces services sur divers assistants vocaux.</p><p>Mais Orange se positionne aujourd’hui sur le marché des assistants grâce à Djingo, avec à coeur le respecter de la vie privée de ses interlocuteurs, le tout régie par un \"Bible\" (document de référence / caractéristiques fondamentales de Djingo) stricte, créée par Frederic Mit, Elena Tosi Brandi et Pascal Taillard.</p>"
+              "text": "<p>Obtenir des informations rapides, contrôler différents équipements de sa maison, passer un appel sans les mains… Tout ça n’est plus un fantasme, et il était déjà possible d’accéder à certains de ces services sur divers assistants vocaux.</p><p>Mais Orange se positionne aujourd’hui sur le marché des assistants grâce à Djingo, avec à c&oelig;ur le respecter de la vie privée de ses interlocuteurs, le tout régie par un \"Bible\" (document de référence / caractéristiques fondamentales de Djingo) stricte, créée par Frederic Mit, Elena Tosi Brandi et Pascal Taillard.</p>"
             }
           ]
         },
@@ -105,13 +215,7 @@
               "block": "text",
               "subtitle": "PROJET",
               "title": "Un projet riche en expériences",
-              "text": "<p>Ma mission principale a été de venir en renfort de Thomas Lauby et se répartir les tâches sur le design de l’application mobile&nbsp;:</p><ul><li>Questionner l’UX et revoir / réaliser l’UI des différents services existants&nbsp;;</li><li>Anticiper d’autres fonctionnalités, une homepage, un écran de paramétrages…&nbsp;;</li><li>Répondre aux demandes delivery des PO&nbsp;;</li><li>Appliquer le Design System Orange (de la charte One-i)...</li></ul>"
-            },
-            {
-              "block": "text",
-              "subtitle": "",
-              "title": "",
-              "text": "Je suis également intervenue sur différents ateliers, comme participante et comme organisatrice&nbsp;:</p><ul><li>Messages d’erreurs (in-app et à l’oral)&nbsp;;</li><li>Gestion du multi-comptes / profils (avec une vision long terme, hors MVP)&nbsp;;</li><li>Intégration du service TV Orange dans l’écosystème global de Djingo...</li></ul></ul><br><p>Enfin, j’ai aussi eu l’opportunité de faire de l’UX Conversationnelle pour un service qui devrait voir le jour en 2020.</p>"
+              "text": "<p>Ma mission principale a été de venir en renfort de Thomas Lauby et se répartir les tâches sur le design de l’application mobile&nbsp;:</p><ul><li>Questionner l’UX et revoir / réaliser l’UI des différents services existants&nbsp;;</li><li>Anticiper d’autres fonctionnalités, une homepage, un écran de paramétrages…&nbsp;;</li><li>Répondre aux demandes delivery des PO&nbsp;;</li><li>Un peu d'UX conversationnel sur le skill Podcast&nbsp;;</li><li>Appliquer le Design System Orange (de la charte One-i)...</li></ul><br><p>Je suis également intervenue sur différents ateliers, comme participante et comme organisatrice&nbsp;:</p><ul><li>Messages d’erreurs (in-app et à l’oral)&nbsp;;</li><li>Gestion du multi-comptes / profils (avec une vision long terme, hors MVP)&nbsp;;</li><li>Intégration du service TV Orange dans l’écosystème global de Djingo...</li></ul>"
             }
           ]
         },
@@ -162,7 +266,7 @@
           "blocks": [
             {
               "block": "image",
-              "image": "image-1.jpg"
+              "image": "image-1.png"
             }
           ]
         },
@@ -173,13 +277,7 @@
               "block": "text",
               "subtitle": "PROJET",
               "title": "Nouvelle identité graphique",
-              "text": "<p>Les solutions logicielles proposées par Improvize sont majoritairement spécialisées dans la musique, mais ils proposent également des outils similaires pour l’édition de livres ainsi que des outils complémentaires variés. C’est pourquoi il n’était pas question de représenter la musique de façon trop évidente.</p><p>Le client avait cependant une idée de fond&nbsp;: évoquer l’aspect méthodique, structuré et minutieux inhérent à ses logiciels qui feront, sous peu, partie d’un ensemble / une suite (qui nécessite également sa propre cohérence graphique)&nbsp;; représenté par l’abeille.</p>"
-            },
-            {
-              "block": "text",
-              "subtitle": "",
-              "title": "",
-              "text": "<p>J’ai beaucoup expérimenté sur la façon de visualiser l’abeille, entre le réalisme et l’abstraction, dans la typographie comme dans l'iconographie. </p><p>Je me suis finalement beaucoup inspirée de la nature assez extraordinaire des ruches et de l'artiste Escher, et ai associé une couleur majeur à chaque logiciel (à terme, il y aura 6 logiciels).</p><p>J’ai ainsi décliné les logos des principaux logiciels existants à partir du logo Improvize avec 1 à 2 lettres, déterminées avec le client.</p>"
+              "text": "<p>Leurs besoins: </p><ul><li>1 logo pour improvize</li><li>4 logos pour leurs logiciels</li><li>Un site vitrine minimaliste.</li></ul><p>  Les plus urgents étaient bien sûr les logos pour improvize & les logiciels.</p><br><p>Il est à noter que les logiciels sont non seulement à destination de l’industrie musicale mais également pour l’édition et autres outils variés, ce qui excluait une représentation explicite de la musique. En revanche, leurs valeurs étaient très intéressantes : Méthodologique, structuré et méticuleux. </p><p>Celles-ci me semblaient parfaitement représentées par l’abeille et la ruche, puis mises en valeur par un aspect très géométrique à la Escher, entre réalisme et abstraction, tant dans la typographie que l’iconographie.</p>"
             }
           ]
         },
@@ -248,9 +346,9 @@
     {
       "id": "allo",
       "title": "Allo,",
-      "subtitle": "Zero-waste voice assistant",
+      "subtitle": "Assistant vocal anti-gaspi",
       "date": "2018",
-      "type": "Site vitrine",
+      "type": "Assistant vocal",
       "skills": "IoT • Service design • UX/UI",
       "team": "Benjamin Gammaire • Léo Ternoir • Quentin Tschaimanga",
       "rows": [
@@ -261,13 +359,13 @@
               "block": "text",
               "subtitle": "PROJET",
               "title": "Un assistant vocal anti-gaspi",
-              "text": "<p>Pour chaque produit qui vous semble bon à jeter, demandez Allo et l’un de ses 5 experts anti-gaspi quoi faire avec de ce produit pour lui éviter la poubelle.</p><br><p>Ces experts sont là pour donner des conseils sur la manière de préserver vos produits ou leur donner une seconde vie. Par exemple, avec une vieille orange, Marin, l’expert de la salle de bain, pourra vous suggérer de faire des tablettes pour votre lave-vaisselle.</p>"
+              "text": "<p>Pour chaque produit qui vous semble bon à jeter, demandez à Allo et l’un de ses 5 experts anti-gaspi quoi faire avec de ce produit pour lui éviter la poubelle.</p><br><p>Ces experts sont là pour donner des conseils sur la manière de préserver vos produits ou leur donner une seconde vie. Par exemple, avec une vieille orange, Marin, l’expert de la salle de bain, pourra vous suggérer de faire des tablettes pour votre lave-vaisselle.</p>"
             },
             {
               "block": "text",
               "subtitle": "CONTEXTE",
               "title": "Pensée commune",
-              "text": "<p>Each time you have a product that seems to be ready to be thrown away, ask Allo and one of its 5 zero-waste experts what to do with that product to avoid the trash.</p><br><p>Those experts are here to give you advice on how to preserve your products or give them a new life. For example, with an old orange, Marin, the bathroom expert, can suggest a DIY recipe for dishwasher pods.</p>"
+              "text": "<p>Au fil des années, mes camarades et moi-même sommes devenus plus conscients quant à la quantité de déchets produits, par nous et par les autres. C’est pourquoi nous avons réalisé Allo: le premier assistant vocal zéro-gaspi, pour donner une alternative à la poubelle et donner une seconde vie à tous les produits de la maison.</p>"
             }
           ]
         },
@@ -290,7 +388,7 @@
               "block": "text",
               "subtitle": "COMMENT ÇA MARCHE ?",
               "title": "La conception de l'objet",
-              "text": "<p>Après de longues recherches sur une forme douce, dans l’air du temps et singulière, la base de Allo a été conçue sur Fusion360, imprimée en 3D, poncée, primée (par mes soins) pour pouvoir contenir un Raspberry Pi 3, un ReSpeaker 4-mic Array et un haut parleur.</p><p>La partie supérieure a été réalisée à la découpe laser, au Carrefour Numérique, puis vernie.</p><br><p>Le MVP est composé de 3 parties&nbsp;:</p><ul><li>Un frontend (NLU/TSS) avec lequel l’utilisateur interagit vocalement grâce à la technologie Snips, qui capture les informations vocales pertinentes, les traduit en données textuelles et les envoie au backend&nbsp;;</li><li>Un backend (code métier main.py) qui redistribue les textes vers des actions associées, puis reçoit des instructions à donner à l’utilisateur&nbsp;;</li><li>Un backend distant (API/BDD) qui se charge de la recherche, de la sauvegarde et du tri des ressources (profils, produits, astuces…) à transmettre.</li></ul>"
+              "text": "<p>Après de longues recherches sur une forme douce, dans l’air du temps et singulière, la base de Allo a été conçue sur Fusion360, imprimée en 3D, poncée, primée (par mes soins) pour pouvoir contenir un Raspberry Pi 3, un ReSpeaker 4-mic Array et un haut parleur.</p><p>La partie supérieure a été réalisée à la découpe laser, au Carrefour Numérique, puis vernie.</p><br><p>Le MVP est composé de 3 parties&nbsp;:</p><ul><li>Un frontend (NLU/TSS) avec lequel l’utilisateur interagit vocalement grâce à la technologie Snips, qui capture les informations vocales pertinentes, les traduit en données textuelles et les envoie au backend&nbsp;;</li><li>Un backend (main.py) qui redistribue les textes vers des actions associées, puis reçoit des instructions à donner à l’utilisateur&nbsp;;</li><li>Un backend distant (API/BDD) qui se charge de la recherche, de la sauvegarde et du tri des ressources (profils, produits, astuces…) à transmettre.</li></ul>"
             },
             {
               "block": "image",
@@ -337,7 +435,7 @@
               "block": "text",
               "subtitle": "CHALLENGES",
               "title": "Lieu d'intervention",
-              "text": "<p>Allo a beaucoup évolué au fil du projet. Nous nous étions d’abord concentrés sur le gâchis de nourriture en magasin pour voir si nous pouvions avoir un impact avant même que l’achat soit réalisé (auquel cas&nbsp;: aucun gâchis).</p><p>Or, nos recherches (observations en magasin, interview) nous ont prouvés que l’impulsivité que représentent généralement l’achat en magasin n’est pas (ou difficilement) contrôlable (60% des personnes interrogées improvisent leurs courses). </p><br><p>Nous avons restreint notre champ d’action à la maison, après achat, avant la case « poubelle ». En interrogeant les utilisateurs (« Tableau des problèmes », formulaire quantitatif, interviews « jeu de rôle »), autre que la vaisselle, le gâchis est un point de friction très fort. Les utilisateurs ne savent pas quoi faire de leurs restes, ne sont pas toujours équipés pour les congeler, et sont contraints de jeter (60% des personnes interrogées jettent régulièrement des aliments). </p>"
+              "text": "<p>Allo a beaucoup évolué au fil du projet. Nous nous étions d’abord concentrés sur le gâchis de nourriture en magasin pour voir si nous pouvions avoir un impact avant même que l’achat soit réalisé (auquel cas&nbsp;: aucun gâchis).</p><p>Or, nos recherches (observations en magasin, interview) nous ont prouvées que l’impulsivité que représente généralement l’achat en magasin n’est pas (ou difficilement) contrôlable (60% des personnes interrogées improvisent leurs courses). </p><br><p>Nous avons restreint notre champ d’action à la maison, après achat, avant la case « poubelle ». En interrogeant les utilisateurs (« Tableau des problèmes », formulaire quantitatif, interviews « jeu de rôle »), autre que la vaisselle, le gâchis est un point de friction très fort. Les utilisateurs ne savent pas quoi faire de leurs restes, ne sont pas toujours équipés pour les congeler, et sont contraints de jeter (60% des personnes interrogées jettent régulièrement des aliments). </p>"
             }
           ]
         },
@@ -363,7 +461,7 @@
               "block": "text",
               "subtitle": "",
               "title": "",
-              "text": "<li>4. « Je n’achète quasiment que local / en AMAP »&nbsp;: l’achat est plus raisonnable, selon les besoins, avec liste de courses et des idées assez clairs sur l’utilisation de ces achats&nbsp;;</li><li>5. « Je suis un régime alimentaire stricte »&nbsp;: un peu hors catégorie, car l’achat est particulièrement régulé, précis, et aucun gâchis n’est fait.</li></ul><p>Grâce à ces éléments, nous identifions le profil 2 et 3 comme ceux qui seront le plus intéressés, réceptif.</p>"
+              "text": "<li>4. « Je n’achète quasiment que local / en AMAP »&nbsp;: l’achat est plus raisonnable, selon les besoins, avec liste de courses et des idées assez clairs sur l’utilisation de ces achats&nbsp;;</li><li>5. « Je suis un régime alimentaire stricte »&nbsp;: un peu hors catégorie, car l’achat est particulièrement régulé, précis, et aucun gâchis n’est fait.</li></ul><p>Grâce à ces éléments, nous identifions le profil 2 et 3 comme ceux qui seront le plus intéressés, réceptifs.</p>"
             }
           ]
         },
@@ -383,7 +481,7 @@
             {
               "block": "text",
               "subtitle": "COMMENT ÇA MARCHE ?",
-              "title": "La conception de l'objet",
+              "title": "L'assistant & ses experts",
               "text": "<p>En effectuant un premier test qualitatif in-situ du MVP dans la cuisine, plusieurs utilisateurs nous ont remontés vouloir des idées pour utiliser leurs déchets / restes / produits périmées ailleurs que dans la cuisine. C’est ainsi que nous sommes passés à un assistant plus polyvalent doté de 5 experts&nbsp;:</p><ul><li>Paprika, pour la cuisine&nbsp;;</li><li>Marin, pour la salle de bain&nbsp;;</li><li>Polochon, pour la chambre&nbsp;;</li><li>Pépin, pour le jardin et les plantes&nbsp;;</li><li>Jack, pour les produits électroniques.</li></ul>"
             },
             {
@@ -410,13 +508,13 @@
               "block": "text",
               "subtitle": "CHALLENGES",
               "title": "Design principles",
-              "text": "<p>De tous ces tests et les problèmes rencontrés (trouver l’endroit où Allo serait le plus adapté, garder les conversations naturelles et privées, éviter de transmettre un sentiment de pression ou de moralisation…) ce sont dégagés 6 Design principles&nbsp;:</p><ul><li><b>Bienveillance</b>&nbsp;: Allo vous aide à trouver des idées simples,accessibles et frugales pour chaque produit qui vous paraît abîmé.</li><li><b>Privé</b>&nbsp;: Grâce à la technologie de Snips, les discussions que vous avez avec Allo restent avec Allo, stockée localement.</li><li><b>Custom</b>&nbsp;: Nos habitudes, envies et goûts varient d’une personne à une autre, et Allo s’adapte et apprend pour suggérer les astuces les plus adaptées.</li></ul>"
+              "text": "<p>De tous ces tests et les problèmes rencontrés (trouver l’endroit où Allo serait le plus adapté, garder les conversations naturelles et privées, éviter de transmettre un sentiment de pression ou de moralisation…) ce sont dégagés 6 Design principles&nbsp;:</p><ul><li><b>Bienveillance</b>&nbsp;: Allo vous aide à trouver des idées simples, accessibles et frugales pour chaque produit qui vous paraît abîmé.</li><li><b>Privé</b>&nbsp;: Grâce à la technologie de Snips, les discussions que vous avez avec Allo restent avec Allo, stockée localement.</li><li><b>Custom</b>&nbsp;: Nos habitudes, envies et goûts varient d’une personne à une autre, et Allo s’adapte et apprend pour suggérer les astuces les plus adaptées.</li></ul>"
             },
             {
               "block": "text",
               "subtitle": "",
               "title": "",
-              "text": "<ul><li><b>Pédagogique</b>&nbsp;: Allo est votre assistant dans lequel sont contenus 5 experts, un par pièce de la maison, afin que vous puissiez apprendre, pièce après pièce, les différentes problématiques liées au gaspillage dans la maison et comment y remédier.</li><li><b>Au bon moment</b>&nbsp;: Les achats liés à l’envie et non au besoin n’étant pas contrôlable, Allo s’intègre parfaitement dans le cycle de la vie d’un produit qui vient d’être acheté, et ce jusqu’à-ce qu’il soit presque jeté.</li><li><b>Au bon endroit</b>&nbsp;: La majeure partie du gaspillage alimentaire provient de nos maisons, c’est pour cette raison que c’est dans la maison que Allo convient le mieux, dans la pièce de votre choix.</li></ul>"
+              "text": "<ul><li><b>Pédagogique</b>&nbsp;: Allo est votre assistant dans lequel sont contenus 5 experts, un par pièce de la maison, afin que vous puissiez apprendre, pièce après pièce, les différentes problématiques liées au gaspillage dans la maison et comment y remédier.</li><li><b>Au bon moment</b>&nbsp;: Les achats liés à l’envie et non au besoin n’étant pas contrôlables, Allo s’intègre parfaitement dans le cycle de la vie d’un produit qui vient d’être acheté, et ce jusqu’à-ce qu’il soit presque jeté.</li><li><b>Au bon endroit</b>&nbsp;: La majeure partie du gaspillage alimentaire provient de nos maisons, c’est pour cette raison que c’est dans la maison que Allo convient le mieux, dans la pièce de votre choix.</li></ul>"
             }
           ]
         },
@@ -466,6 +564,12 @@
           "blocks": [
             {
               "block": "text",
+              "subtitle": "PROJET",
+              "title": "Précédente expérience en magasin",
+              "text": "<p>Nous avons imaginé, avec USERADGENTS, un dispositif interactif permettant au client de s’inspirer, d’accéder à la gamme complète des produits La Redoute Intérieurs et d’effectuer sa sélection à emporter (impression et partage e-mail). </p>"
+            },
+            {
+              "block": "text",
               "subtitle": "CONTEXTE",
               "title": "Opportunité",
               "text": "<p>La Redoute Intérieurs souhaitait profiter de l’ouverture de nouvelles boutiques à Lyon et Carré Sénart pour proposer une expérience multicanale en point de vente.</p>"
@@ -489,9 +593,9 @@
           "blocks": [
             {
               "block": "text",
-              "subtitle": "PROJET",
-              "title": "Title",
-              "text": "<p>Nous avons imaginé, avec USERADGENTS, un dispositif interactif permettant au client de s’inspirer, d’accéder à la gamme complète des produits La Redoute Intérieurs et d’effectuer sa sélection à emporter (impression et partage e-mail). </p><br><p>Nous avons commencé par une étude terrain dans les magasins La Redoute Intérieurs et AMPM à Paris.</p><br><p>Quelques-un de nos constats&nbsp;:</p><ul><li>Les clients viennent principalement s’inspirer ou voir la qualité des matériaux&nbsp;;</li><li>Beaux produits mais boutiques trop petites / peu fournies&nbsp;;</li><li>Très peu de vendeurs (attente longue pour les clients, gestion de boutique très difficile pour les vendeurs)&nbsp;;</li><li>Aucune information sur le stock des produits en ligne&nbsp;;</li><li>Informations sur les produits pas toujours à jour voire disponibles (étiquettes manquantes)...</li></ul>"
+              "subtitle": "RECHERCHE UTILISATEUR",
+              "title": "Interviews et constats",
+              "text": "<p>Nous avons commencé par une étude terrain dans les magasins La Redoute Intérieurs et AMPM à Paris.</p><br><p>Quelques-un de nos constats&nbsp;:</p><ul><li>Les clients viennent principalement s’inspirer ou voir la qualité des matériaux&nbsp;;</li><li>Beaux produits mais boutiques trop petites / peu fournies&nbsp;;</li><li>Très peu de vendeurs (attente longue pour les clients, gestion de boutique très difficile pour les vendeurs)&nbsp;;</li><li>Aucune information sur le stock des produits en ligne&nbsp;;</li><li>Informations sur les produits pas toujours à jour voire disponibles (étiquettes manquantes)...</li></ul>"
             }
           ]
         },
@@ -607,9 +711,9 @@
           "blocks": [
             {
               "block": "text",
-              "subtitle": "CONTEXTE",
-              "title": "Étudier les comportements",
-              "text": "<p>Stiqr était le projet de fin de Master 1 à Gobelins, en partenariat avec la BPI (Bibliothèque Publique d’Information).</p><br><p>Nous avons basé notre concept sur la multitude d’interviews réalisées dans des musées, sur un public jeune et sur leurs habitudes. D’après nos analyses, ils aiment aller au musée, mais pas seuls: bien qu’ils aient tendance à faire la visite chacun à son rythme, ils aiment se retrouver régulièrement pour échanger de points de vue.</p>"
+              "subtitle": "PROJET",
+              "title": "Faire le tour pour mieux comprendre",
+              "text": "<p>Nous avons pensé Stiqr comme une façon simple et fun de motiver un public jeune à aller voir plus d’expositions. Cette app permet de scanner une &oelig;uvre d’art avec votre téléphone, et de voir, en réalité augmentée, ce que les autres visiteurs en ont pensé au travers d’emojis très expressifs. Et vous pouvez, si vous le souhaitez, ajouter votre pierre à l’édifice.</p><br><p>La finalité est de prendre conscience de la multitude de possibilités de s'exprimer, aller au delà du « j’aime » ou « je n’aime pas ». Ça permet également de savoir si vous partagez un intérêt, une adoration ou une indifference avec quelqu’un d’autre et d’explorer un point de vue différent.</p>"
             }
           ]
         },
@@ -630,9 +734,9 @@
           "blocks": [
             {
               "block": "text",
-              "subtitle": "PROJET",
-              "title": "Faire le tour pour mieux comprendre",
-              "text": "<p>Nous avons pensé Stiqr comme une façon simple et fun de motiver un public jeune à aller voir plus d’expositions. Cette app permet de scanner une oeuvre d’art avec votre téléphone, et de voir, en réalité augmentée, ce que les autres visiteurs en ont pensé au travers d’emojis très expressifs. Et, si vous le souhaitez, vous pouvez ajouter votre pierre à l’édifice.</p><br><p>L’idée, c’est d’apprendre à s’expliquer autrement, aller au delà du « j’aime » ou « je n’aime pas ». Ça permet également de savoir si vous partagez un intérêt, une adoration ou une indifference avec quelqu’un d’autre et d’explorer un point de vue différent.</p>"
+              "subtitle": "CONTEXTE",
+              "title": "Étudier les comportements",
+              "text": "<p>Stiqr était le projet de fin de Master 1 à Gobelins, en partenariat avec la BPI (Bibliothèque Publique d’Information).</p><br><p>Nous avons basé notre concept sur la multitude d’interviews réalisées dans des musées, sur un public jeune et sur leurs habitudes. D’après nos analyses, ils aiment aller au musée, mais pas seuls: bien qu’ils aient tendance à faire la visite chacun à leur rythme, ils aiment se retrouver régulièrement pour échanger avis et points de vue.</p>"
             }
           ]
         },
@@ -652,13 +756,13 @@
               "block": "text",
               "subtitle": "PROJET",
               "title": "Objectifs",
-              "text": "<p>Nous avions quatre objectifs principaux lors de la réalisation de Stiqr&nbsp;:</p><ul><li>La démocratisation du musée auprès d’une cible jeune&nbsp;;</li><li>Rendre la visite ludique et plus attractive&nbsp;;</li><li>Exprimer différentes émotions face aux oeuvres (en dehors du « j’aime » / « je n’aime pas »)&nbsp;;</li><li>Impliquer davantage l’utilisateur dans sa visite grâce à la réalité augmentée.</li></ul>"
+              "text": "<p>Nous avions quatre objectifs principaux lors de la réalisation de Stiqr&nbsp;:</p><ul><li>La démocratisation du musée auprès d’une cible jeune&nbsp;;</li><li>Rendre la visite ludique et plus attractive&nbsp;;</li><li>Exprimer différentes émotions face aux &oelig;uvres (en dehors du « j’aime » / « je n’aime pas »)&nbsp;;</li><li>Impliquer davantage l’utilisateur dans sa visite grâce à la réalité augmentée.</li></ul>"
             },
             {
               "block": "text",
               "subtitle": "COMMENT ÇA MARCHE ?",
               "title": "La magie de la RA",
-              "text": "<p>Après avoir sélectionné l’exposition dans laquelle on se trouve, il devient possible de scanner les oeuvres grâce à la reconnaissance d’image offerte par Vuforia. Vous pouvez alors voir les emojis des personnes étant passées par là avant vous en réalisé augmentée.</p>"
+              "text": "<p>Après avoir sélectionné l’exposition dans laquelle on se trouve, il devient possible de scanner les &oelig;uvres grâce à la reconnaissance d’image offerte par Vuforia. Vous pouvez alors voir les emojis des personnes étant passées par là avant vous en réalité augmentée.</p>"
             }
           ]
         },
@@ -688,9 +792,9 @@
           "blocks": [
             {
               "block": "text",
-              "subtitle": "CONTEXTE",
-              "title": "Un projet court & fun",
-              "text": "<p>Cushy! est un projet qui s’est étalé sur environ 1 mois à Gobelins, l’école de l’image. Nous avions pour seule instruction de faire un objet connecté.</p><p>Compte tenu du peu de temps à notre disposition, nous nous sommes rapidement décidé sur quelque chose de fun, avec du challenge mais faisable dans le temps imparti avec un intérêt commun: les films et les séries TV.</p>"
+              "subtitle": "PROJET",
+              "title": "Le coussin des indécis",
+              "text": "<p>Cushy, c’est un coussin que vous poussez presser, caresser ou frapper alors que vous êtes confortablement installés dans votre canapé et que vous ne savez pas quoi regarder à la télé. Il pourra vous dire ce qui correspond le mieux à votre humeur. Plus besoin de réfléchir pendant des heures, grâce à une interface facile à utiliser, vous serez très vite plongés dans la série qui vous va le mieux. </p>"
             }
           ]
         },
@@ -711,9 +815,9 @@
           "blocks": [
             {
               "block": "text",
-              "subtitle": "PROJET",
-              "title": "Le coussin des indécis",
-              "text": "<p>Cushy, c’est un coussin que vous poussez presser, caresser ou frapper alors que vous êtes confortablement installé.e dans votre canapé et que vous ne savez pas quoi regarder à la télé. Il pourra vous dire ce qui correspond le mieux à votre humeur. Plus besoin de réfléchir pendant des heures, grâce à une interface facile à utiliser, vous serez très vite plongé dans la série qui vous va le mieux. </p>"
+              "subtitle": "CONTEXTE",
+              "title": "Un projet court & fun",
+              "text": "<p>Cushy! est un projet qui s’est étalé sur environ 1 mois à Gobelins, l’école de l’image. Nous avions pour seule instruction de faire un objet connecté.</p><p>Compte tenu du peu de temps à notre disposition, nous nous sommes rapidement décidés sur quelque chose de fun, avec du challenge mais faisable dans le temps imparti avec un intérêt commun: les films et les séries TV.</p>"
             }
           ]
         },
@@ -739,7 +843,7 @@
               "block": "text",
               "subtitle": "COMMENT ÇA MARCHE ?",
               "title": "Un capteur discret, fait maison",
-              "text": "<p>Après beaucoup de recherches, d’essais et d’échecs. nous avons réussi à créer notre propre capteur à partir de Veloutât et de rubans de cuivre, capable de cartographier la position et la force de votre main sur la surface du coussin. C’est grâce à ce capteur home-made que Cushy sera en mesure de détecter votre humeur selon vos gestes envers lui. </p><p>Nous avons également designé et réalisé une housse de coussin en 100% coton, dont les patterns ont été réalisés à la peinture pour tissu d’un côté et à l’impression de l’autre pour correspondre à notre identité.</p>"
+              "text": "<p>Après beaucoup de recherches, d’essais et d’échecs, nous avons réussi à créer notre propre capteur à partir de Velostat (feuille conductrice sensible à la pression) et de rubans de cuivre, capable de cartographier la position et la force de votre main sur la surface du coussin. C’est grâce à ce capteur home-made que Cushy sera en mesure de déduire votre humeur en fonction de votre gestuelle. </p><p>Nous avons également designé et réalisé une housse de coussin en 100% coton, dont les patterns ont été réalisés à la peinture pour tissu d’un côté et à l’impression de l’autre pour correspondre à notre identité.</p>"
             }
           ]
         },
@@ -1013,7 +1117,7 @@
               "block": "text",
               "subtitle": "CONTEXTE & PROJET",
               "title": "Une ligne fine entre hobby et travail",
-              "text": "<p>Le Cosplay (de « Costume » et « Playing ») est un hobby encore peu connu. Beaucoup de préjugés y restent associé mais il s’agit, pour moi, d’un moyen de me challenger et de dépasser mes limites à chaque projet.</p><br><p>J’ai réalisé Orianna, provenant du jeu League of Legends, dans le but de poursuivre mon expérimentation avec l’Arduino et les moteurs, m’improvisant ingénieure pour les 400 heures de travail passées à sa création.</p><p>Comme vous pourrez le constater, je considère que le cosplay est un travail à part entière que je traite avec autant d’implication et de motivation qu’un projet de design interactif.</p>"
+              "text": "<p>Le Cosplay (de « Costume » et « Playing ») est un hobby encore peu connu. Beaucoup de préjugés y restent associés mais il s’agit, pour moi, d’un moyen de me challenger et de dépasser mes limites à chaque projet.</p><br><p>J’ai réalisé Orianna, provenant du jeu League of Legends, dans le but de poursuivre mon expérimentation avec l’Arduino et les moteurs, m’improvisant ingénieure pour les 400 heures de travail passées à sa création.</p><p>Comme vous pourrez le constater, je considère que le cosplay est un travail à part entière que je traite avec autant d’implication et de motivation qu’un projet de design interactif.</p>"
             }
           ]
         },

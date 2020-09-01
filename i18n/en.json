@@ -1,6 +1,7 @@
 {
-  "title": "Hi, I’m Sofia Boggio",
-  "subtitle": "I’m a <b>freelance interactive designer</b> based in Paris. I’m also a curious, playful and passionate <b>maker</b>.",
+  "title": "Hello, I’m Sofia Boggio",
+  "subtitle": "I'm a <b>freelance Interactive Designer</b>, expert in UX Design... but also so much more!",
+  "about": "From Service design to UI, Motion design to Video editing, or Product design to IoT ; I’m a curious and passionate maker, with an ambition to bring a playful and/or learning aspect to my projects.",
   "view-project": "View project",
   "a-project-with": "A project with",
   "next": "Next",
@@ -40,12 +41,122 @@
   },
   "projects": [
     {
+      "id": "craftplan",
+      "title": "Craftplan",
+      "subtitle": "A crossplatform app to think, plan & make",
+      "date": "2020",
+      "type": "Mobile & desktop application",
+      "skills": "User Research • UX & UI Design",
+      "team": "Brice Culas",
+      "rows": [
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "text",
+              "subtitle": "PROJECT",
+              "title": "3 steps to harmony",
+              "text": "<p>Craftplan is a crossplatform application made to simplify the organization of your projects and let you enjoy the making process.</p><br><p>It’s composed of 3 core features:</p><ul><li>Project management;</li><li>Inventory;</li><li>Planning.</li></ul><br><p>This app was made by cosplayers for cosplayers and all type of makers / manual workers. That’s part of why the thought process and UX research has been at the heart of the project (and still in progress).</p>"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-01.jpg"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "text",
+              "subtitle": "CONTEXT",
+              "title": "From messy to tidy",
+              "text": "<p>Being a cosplayer, a prop maker or anyone creative can be challenging. Your mind tends to wander off, get excited by everything you see and experience, which makes it hard to focus solely on one task or project.</p><br><p>Some don't mind a messy process because they're either fast workers (making it easy to finish something before starting another) or at ease with working on several things at a time without getting too distracted or un-hyped. Others (like me, hence this project) need something to help them focusing, see the overall project, evaluate what's left to do and have a semi-clear objective as to when that project should see the light of day.</p>"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-02.jpg"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-03.jpg"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-04.jpg"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "text",
+              "subtitle": "USER RESEARCH",
+              "title": "From quantity  to quality",
+              "text": "<p>I organized my user research in the following way:</p><br><ul><li>Analyzing the competition (mainly Cosplanner)</li><li>Quantitative user research (polls on Instagram & review gathering of Cosplanner)</li><li>Quality remote usability testings with 5 participants (using Discord)</li><li>Accessibility inputs from 2 participants (asked questions & going through the overall user journey)</li><li>Informal focus group with 3 participants</li><br><p>The next ones will come when we'll have a working app prototype to show for.</p>"
+            },
+            {
+              "block": "text",
+              "subtitle": "OPPORTUNITY",
+              "title": "The competition",
+              "text": "<p>There are already two existing apps to organize cosplay projects: Cosplanner & Cosflowy (abandoned)  Cosplanner has taken the market quite fast because there was a clear need with features targeted specifically for cosplayers, but the lack of updates is making it obsolete now.</p><br><p>Some of the criticism I read (and experienced):</p><br><ul><li>Not supported by new phones; </li><li>No auto synchronization between mobile & desktop app;</li><li>Manual data backup (from mobile to desktop app, one project at a time); </li><li>Conflicts with mobile & desktop app; </li><li>No local or account-based data backup;</li><li>Monthly fee to import those backups;</li><li>Mobile app glitching & crashing; </li><li>Could benefit from a better organization system; </li><li>Not accessible; </li><li>Minor feature tweaks.</li>"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-05.jpg"
+            }
+          ]
+        },
+        {
+          "rowType": "default",
+          "blocks": [
+            {
+              "block": "image",
+              "type": "2col",
+              "image": "image-06.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "djingo",
       "title": "Speaker Djingo",
       "subtitle": "Mobile app for Orange’s voice assistant",
       "date": "2019 - 2020",
       "type": "Voice assistant",
-      "skills": "UX/UI Design • UXC",
+      "skills": "UX & UI Design • UXC",
       "team": "Orange",
       "rows": [
         {
@@ -55,7 +166,7 @@
               "block": "text",
               "subtitle": "CONTEXT",
               "title": "Voice assistant & privacy",
-              "text": "<p>Getting informations quickly, control several house equipments, call without using your hands… It’s not just a fantasy, and it was already possible to access those services on several voice assistant.</p><p>But Orange is now positioned in the market, thanks to Djingo, focusing on the privacy of its clients data. The \"Bible\" (reference doc / fondamental characteristics of Djingo), created by Frederic Mit, Elena Tosi Brandi & Pascal Taillard, ensures the coherence of that principle amongst others.</p>"
+              "text": "<p>Getting information quickly, control several house equipments, call without using your hands… It’s not just a fantasy, and it was already possible to access those services on several voice assistant.</p><p>But Orange is now positioned in the market, thanks to Djingo, focusing on the privacy of its clients data. The \"Bible\" (reference doc / fondamental characteristics of Djingo), created by Frederic Mit, Elena Tosi Brandi & Pascal Taillard, ensures the coherence of that principle amongst others.</p>"
             }
           ]
         },
@@ -102,15 +213,9 @@
           "blocks": [
             {
               "block": "text",
-              "subtitle": "PROJECTS",
+              "subtitle": "PROJECT",
               "title": "A rich experience",
-              "text": "<p>My main mission has been to help Thomas Lauby and share the amount of work on the mobile app’s design:</p><ul><li>Question UX & review/make UI for existing services;</li><li>Anticipate other features, pages, screens…;</li><li>Answer to PO’s delivery needs;</li><li>Apply Orange’s Design System...</li></ul><br><p>I also took part in various workshops, as a participant and as organiser:</p><ul><li>Error messages (in-app & vocal);</li><li>Management of multiple accounts / profiles (long term vision, outside of MVP);</li><li>Orange TV skill inside Djingo’s global ecosystem...</li></ul>"
-            },
-            {
-              "block": "text",
-              "subtitle": "",
-              "title": "",
-              "text": "Finally, I had the opportunity to do some CUX for a skill that should be released in 2020.</p><br><p>My work on Djingo isn’t quite over yet since I’m currently working on Djingo’s animacy (visual expressivity of Djingo cross-platform)</p>"
+              "text": "<p>My main mission has been to help Thomas Lauby and share the amount of work on the mobile app’s design:</p><ul><li>Question UX & review/make UI for existing services;</li><li>Anticipate other features, pages, screens…;</li><li>Answer to PO’s delivery needs;</li><li>Some CUX on the Podcast skill;</li><li>Apply Orange’s Design System...</li></ul><br><p>I also took part in various workshops, as a participant and as organiser:</p><ul><li>Error messages (in-app & vocal);</li><li>Management of multiple accounts / profiles (long term vision, outside of MVP);</li><li>Orange TV skill inside Djingo’s global ecosystem...</li></ul>"
             }
           ]
         },
@@ -142,7 +247,7 @@
       "subtitle": "Showcase website for rights managements softwares",
       "date": "2019 - 2020",
       "type": "Site vitrine",
-      "skills": "UX/UI Design • Branding • Illustration",
+      "skills": "UX & UI Design • Branding • Illustration",
       "team": "Jacky Fong",
       "rows": [
         {
@@ -161,7 +266,7 @@
           "blocks": [
             {
               "block": "image",
-              "image": "image-1.jpg"
+              "image": "image-1.png"
             }
           ]
         },
@@ -172,13 +277,7 @@
               "block": "text",
               "subtitle": "PROJECTS",
               "title": "A fresh branding",
-              "text": "<p>As stated before, the software solutions offered by Improvize are mostly focused on the music field, but they also offer similar tools for book publishing and various additional tools. That’s why a clear representation of the music industry was out of the question.</p><p>However, the client had an idea to get me started: to allude to the methodological, structured and meticulous aspect of his softwares - that are also soon to be part of a suite (that needs its own graphical coherence as well) embodied by the bee.</p>"
-            },
-            {
-              "block": "text",
-              "subtitle": "",
-              "title": "",
-              "text": "<p>I experimented around that concept, between realism and abstraction, in the typography and the iconography.</p><p>In the end, I got inspired by the extraordinary nature of bee hives, the artist Escher, and associated one major colour per software (eventually, there’ll be 6 softwares).</p><p>I then designed the software’s logo under the same line.</p>"
+              "text": "<p>Their needs: </p><ul><li>1 logo for improvize</li><li>4 logos for their softwares</li><li>A minimalist showcase website </li></ul><p> The most urgent were obviously the logo for Improvize, then for the softwares.</p><br><p>Since the software solutions are not only for the music industry but also for book publishing and various additional tools, a clear representation of the music industry was out of the question. Their values, however, were interesting: methodological, structured and meticulous. </p><p>They were perfectly represented by the bee & bee hives, and then enhanced by an overall very geometrical & Escher-like aspect, between realism and abstraction, in the typography and the iconography.</p>"
             }
           ]
         },
@@ -227,7 +326,7 @@
           "blocks": [
             {
               "block": "text",
-              "subtitle": "PROJECTS",
+              "subtitle": "PROJECT",
               "title": "Show off products",
               "text": "<p>The goal of Improvize’s website was to showcase their softwares (with a tight deadline).</p><p>I went through several steps to achieve the result I wanted:</p><ul><li>Sitemap based on the client’s wishes, to have a better understanding of the page’s link and avoid redundancy;</li><li>Delivery of the main pages wireframes (landing, product, services) to establish the base of the website then the rest of the wireframes;</li><li>Website’s UI (with several propositions at first, adjustments and the final design), including the illustrations;</li><li>Working in parallel with the developper (Jacky Fong) since the sitemap to work agile, avoid delaying him, and have the MVP on time.</li></ul>"
             }
@@ -249,7 +348,7 @@
       "title": "Allo,",
       "subtitle": "Zero-waste voice assistant",
       "date": "2018",
-      "type": "Site vitrine",
+      "type": "Voice assistant",
       "skills": "IoT • Service design • UX/UI",
       "team": "Benjamin Gammaire • Léo Ternoir • Quentin Tschaimanga",
       "rows": [
@@ -258,15 +357,15 @@
           "blocks": [
             {
               "block": "text",
-              "subtitle": "PROJECTS",
-              "title": "Zero-waste vocal assistant",
+              "subtitle": "PROJECT",
+              "title": "Zero-waste  voice assistant",
               "text": "<p>Each time you have a product that seems to be ready to be thrown away, ask Allo and one of its 5 zero-waste experts what to do with that product to avoid the trash.</p><br><p>These experts are here to give you advice on how to preserve your products or give them a new life. For example, with an old orange, Marin, the bathroom expert, can suggest a DIY recipe for dishwasher pods.</p>"
             },
             {
               "block": "text",
               "subtitle": "CONTEXT",
               "title": "Common thinking",
-              "text": "<p>Throughout the years, my classmates and I have been more conscious about how much waste we were producing. That’s why we decided to make Allo: the first zero-waste vocal assistant to be an alternative to the trash and give another life to every product of your house.</p>"
+              "text": "<p>Throughout our life, my classmates and I have been more conscious about how much waste we were producing. That’s why we decided to make Allo: the first zero-waste voice assistant to be an alternative to the trash and give another life to every product of your house.</p>"
             }
           ]
         },
@@ -289,7 +388,7 @@
               "block": "text",
               "subtitle": "HOW DOES IT WORK?",
               "title": "Technical side",
-              "text": "<p>The MVP is made of 3 parts:</p><ul><li>A frontend (NLU/TSS) with whom the user interacts vocally thanks to Snips technology, and that captures the relevant informations, then translates them in textual data to send it to the backend ;</li><li>A backend (main.py) redistributing the texts to the associated actions, then receiving the instructions to give the user ;</li><li>A distant backend (API/Database) in charge of the search, save and sorting of the resources (profiles, products, tips & tricks…) to transmit to the user.</li></ul>"
+              "text": "<p>The MVP is made of 3 parts:</p><ul><li>A frontend (NLU/TSS) with whom the user interacts vocally thanks to Snips technology, and that captures the relevant information, then translates them in textual data to send it to the backend ;</li><li>A backend (main.py) redistributing the texts to the associated actions, then receiving the instructions to give the user ;</li><li>A distant backend (API/Database) in charge of the search, save and sorting of the resources (profiles, products, tips & tricks…) to transmit to the user.</li></ul>"
             },
             {
               "block": "image",
@@ -336,7 +435,7 @@
               "block": "text",
               "subtitle": "CHALLENGES",
               "title": "The right place",
-              "text": "<p>Allo evolved a lot during the project. We were first focused on avoiding food waste in store, to avoid users to buy things they didn’t need (you don’t buy = you don’t waste).</p><p>But our research (observation in-store, interviews) proved us the decision to by something was mostly impulsive, rash, and hardly manageable at our level (60% of the people we interrogated improvise their shopping).</p><br><p>We restricted our field of action to the house, after purchase, before the putting it to the bin. As we interviews users (« Issue board », quantity forms, « role play » interviews), apart from doing the dishes, wastes were a huge friction point. Users don’t know what to do with their wastes or aren’t always equipped to freeze them and feel obligated to throw them away (60% of interrogated people throw away food regularly).</p>"
+              "text": "<p>Allo evolved a lot during the project. We were first focused on avoiding food waste in store, to avoid users to buy things they didn’t need (you don’t buy = you don’t waste).</p><p>But our research (observation in-store, interviews) proved us the decision to buy something was mostly impulsive, rash, and hardly manageable at our level (60% of the people we interrogated improvise their shopping).</p><br><p>We restricted our field of action to the house, after purchase and before putting to the bin. As we interviewed users (« Issue board », quantity forms, « role play » interviews), apart from doing the dishes, waste was a huge pain point. Users don’t know what to do with their wastes or aren’t always equipped to freeze them and feel obligated to throw them away (60% of interrogated people throw away food regularly).</p>"
             }
           ]
         },
@@ -356,13 +455,13 @@
               "block": "text",
               "subtitle": "CHALLENGES",
               "title": "The right target",
-              "text": "<p>5 categories of people emerged from all that research:</p><ul><li>1. « I want it to be fast »: food and eating healthy isn’t a priority, recycling neither;</li><li>2. « I try, when I have the time »: there’s a form of awareness about personal health & planet’s needs, but efforts are really tough and purchases still compulsive;</li><li>3. « I want to eat quality products »: aware, user starts to add some anti-waste processes in his/her routine, but lack of ideas;</li></ul>"
+              "text": "<p>5 categories of people emerged from all that research:</p><ul><li>1. « I want it to be fast »: food and eating healthy isn’t a priority, recycling neither;</li><li>2. « I try, when I have the time »: there’s a form of awareness about personal health & planet’s needs, but efforts are really tough and purchases still compulsive;</li><li>3. « I want to eat quality products »: aware user, starts to add some anti-waste processes in his/her routine, but lack of ideas;</li></ul>"
             },
             {
               "block": "text",
               "subtitle": "",
               "title": "",
-              "text": "<ul><li>4. « I buy almost everything locally »: purchase is reasonable, based on needs, with a shopping list and clear ideas about what to do with the bought products;<li></li>5. « I’m on a strict diet »: a bit out of the scope, because purchase is particularly controlled, precise, no waste possible.</li><br><p>Thanks to those elements, we identified that 2 & 3 were the target most likely to adopt our product.</p>"
+              "text": "<ul><li>4. « I buy almost everything locally »: purchase is reasonable, based on needs, with a shopping list and clear ideas about what to do with the bought products;</li><li>5. « I’m on a strict diet »: a bit out of the scope, because purchase is particularly controlled, precise, no waste possible.</li></ul><br><p>Thanks to those elements, we identified that 2 & 3 were the target most likely to adopt our product.</p>"
             }
           ]
         },
@@ -456,13 +555,19 @@
       "title": "La Redoute Intérieurs",
       "subtitle": "Interactive device in-store",
       "date": "2017",
-      "type": "Dispositif in-store",
+      "type": "In-store device",
       "skills": "User research • UX/UI",
       "team": "Joshfire • USERADGENTS",
       "rows": [
         {
           "rowType": "default",
           "blocks": [
+            {
+              "block": "text",
+              "subtitle": "PROJECT",
+              "title": "Current experience  in-store",
+              "text": "<p>When I was working at Joshfire, we imagined with USERADGENTS an interactive device allowing clients to get inspired, access the complete range of La Redoute Interieurs products and making their To-Go selection (by printing or e-mailing). </p>"
+            },
             {
               "block": "text",
               "subtitle": "CONTEXT",
@@ -488,9 +593,9 @@
           "blocks": [
             {
               "block": "text",
-              "subtitle": "PROJECTS",
-              "title": "Current experience in-store",
-              "text": "<p>When I was working at Joshfire, we imagined with USERADGENTS an interactive device allowing client to get inspired, access the complete range of La Redoute Interieurs products and making its To-Go selection (by printing or e-mailing). </p><br><p>We began with some field research in La Redoute Intérieurs stores in Paris.</p><br><p>Some of our analysis:</p><ul><li>Most clients come to get inspired or see materials quality,</li><li>Nice products but stores too small;</li><li>Very few salespeople (long wait for clients and hard store management for salespeople);</li><li>No informations about stores stocks online;</li><li>Products infos not up to date or there at all (missing labels)...</li></ul>"
+              "subtitle": "USER RESEARCH",
+              "title": "Interviews & analysis",
+              "text": "<p>We began with some field research in La Redoute Intérieurs stores in Paris.</p><br><p>Some of our analysis:</p><ul><li>Most clients come to get inspired or see materials quality,</li><li>Nice products but stores too small;</li><li>Very few salespeople (long wait for clients and difficulties to manage the stores for salespeople);</li><li>No information about stores stocks online;</li><li>Products info not up to date or there at all (missing labels)...</li></ul>"
             }
           ]
         },
@@ -508,9 +613,9 @@
           "blocks": [
             {
               "block": "text",
-              "subtitle": "PROJECTS",
-              "title": "Inspiration & informations",
-              "text": "<p>Following that research, we made a customer journey, carried out some recommandations and use cases regarding the type of device that’d be interesting to the clients, and the relevant infos that should appear on that device.</p><p>Thus, based on the current possibility and reality of LRI technical infrastructure, we designed the global experience, the interface and the console itself, and defined the technical solution.</p><br><p>This Proof Of Concept will be deployed in all of the La Redoute Interieurs stores. This device will eventually allow a complete buying journey, for a seamless omnichannel experience.</p>"
+              "subtitle": "PROJECT",
+              "title": "Inspiration  & information",
+              "text": "<p>Following that research, we made a customer journey, carried out some recommandations and use cases regarding the type of devices that’d be interesting to the clients, and the relevant info that should appear on that device.</p><p>Thus, based on the current possibilities and reality of LRI technical infrastructure, we designed the global experience, the interface and the console itself, and defined the technical solution.</p><br><p>This Proof Of Concept will be deployed in all of the La Redoute Interieurs stores. This device will eventually allow a complete buying journey, for a seamless omnichannel experience.</p>"
             }
           ]
         },
@@ -606,9 +711,9 @@
           "blocks": [
             {
               "block": "text",
-              "subtitle": "CONTEXT",
-              "title": "Studying habits",
-              "text": "<p>Stiqr was our big project in 2017 at Gobelins school, in partnership with the BPI (Bibliothèque Publique d’Information, a public reading library).</p><br><p>We based our concept on several interviews we conducted of a relatively young public and their habits in museums: they like going to the museum, but they are reluctant to go there alone — even though they part ways with their friends once inside, since they’re never quite interested by the same things. </p>"
+              "subtitle": "PROJECT",
+              "title": "Anybody can have an opinion",
+              "text": "<p>We designed Stiqr to be a fun and simple way to motivate a relatively young audience to go see more exhibitions. This app allows you to scan a piece of art with your phone, and see in augmented reality what people think of it with very meaningful emojis. You can add your perception whenever you want, if you feel like it. </p><br><p>The point is to express yourself with something else than « I like » or « I don’t like ». It also lets you know if you share common interest, enthusiasm, indifference etc. with anyone else. It can get frustrating to see that most people are not reacting the way you would’ve wanted them to to your favorite piece, but it can encourage you to think about the « why » of it all.</p>"
             }
           ]
         },
@@ -629,9 +734,9 @@
           "blocks": [
             {
               "block": "text",
-              "subtitle": "PROJECTS",
-              "title": "Anybody can have an opinion",
-              "text": "<p>We designed Stiqr to be a fun and simple way to motivate that public to go see more exhibitions. This app allows you to scan a piece of art with your phone, and see in augmented reality what people think of it with very meaningful emojis. You can add your perception whenever you want, if you feel like it. </p><br><p>The point is to express yourself with something else than « I like » or « I don’t like ». It also lets you know if you share common interest, enthusiasm, indifference etc. with everybody else. It can get frustrating to see that most people are not reacting the way you would’ve wanted them to to your favorite piece, but it can encourage you to think about the « why » of it all.</p>"
+              "subtitle": "CONTEXT",
+              "title": "Studying habits",
+              "text": "<p>Stiqr was our big project in 2017 at Gobelins school, in partnership with the BPI (Bibliothèque Publique d’Information, a public reading library).</p><br><p>We based our concept on several interviews we conducted of a relatively young public and their habits in museums: they like going to the museum, but they are reluctant to go there alone — even though they part ways with their friends once inside, since they’re never quite interested by the same things. </p>"
             }
           ]
         },
@@ -649,15 +754,15 @@
           "blocks": [
             {
               "block": "text",
-              "subtitle": "PROJECTS",
+              "subtitle": "PROJECT",
               "title": "Objectives",
-              "text": "<p>We had four main objectives for Stiqr:</p><li>Democratisation of museums for a young target;</li><li>Make the visit more playful and attractive;</li><li>Express a range of various emotions (other than « I like » / « I don’t like »);</li><li>Involve the visitor more in his/her visit thank to the augmented reality.</li></ul>"
+              "text": "<p>We had four main objectives for Stiqr:</p><ul><li>Democratisation of museums for a young target;</li><li>Make the visit more playful and attractive;</li><li>Express a range of various emotions (other than « I like » / « I don’t like »);</li><li>Involve the visitor more in their visit thanks to the augmented reality.</li></ul>"
             },
             {
               "block": "text",
               "subtitle": "HOW DOES IT WORK?",
               "title": "The magic of AR",
-              "text": "<p>After selecting an exhibition you’d like to go, once there, you can scan art pieces thanks to the image recognition offered by Vuforia. You can then see others emojis in Augmented Reality.</p>"
+              "text": "<p>After selecting an exhibition you’d like to go to, once there, you can scan art pieces allowed by the image recognition offered by Vuforia. You can then see others emojis in Augmented Reality.</p>"
             }
           ]
         },
@@ -678,7 +783,7 @@
       "title": "Cushy!",
       "subtitle": "Interactive binging cushion",
       "date": "2017",
-      "type": "Coussin interactif",
+      "type": "Interactive cushion",
       "skills": "IoT • UX/UI • Arduino",
       "team": "Léo Ternoir • Jacky Fong • Léna Scaravella • Thomas Boulongne",
       "rows": [
@@ -687,9 +792,9 @@
           "blocks": [
             {
               "block": "text",
-              "subtitle": "CONTEXT",
-              "title": "Short & fun",
-              "text": "<p>This was a 1 month workshop at Gobelins school. We had no other instructions than making an IoT.</p><p>Since we didn’t have much time, we wanted something fun, challenging but doable and link to a common interest: movies and TV shows.</p>"
+              "subtitle": "PROJECT",
+              "title": "Cushion  for  the indecisive",
+              "text": "<p>Cushy! is a cushion that you can squeeze, pet, or punch when you’re cozy, on your couch, and you don’t know what TV show or movie to watch. It’ll tell you what’s best based on your mood. No need to wonder around for hours, looking for something you haven’t seen and that seems to fit how you’re feeling tonight. Thanks to a user friendly interface, you can instantly get to your movie or TV show.</p>"
             }
           ]
         },
@@ -710,9 +815,9 @@
           "blocks": [
             {
               "block": "text",
-              "subtitle": "PROJECTS",
-              "title": "Cushion for  the indecisive",
-              "text": "<p>Cushy! is a cushion that you can squeeze, pet, or punch when you’re cozy, on your couch, and you don’t know what TV show or movie to watch. It’ll tell you what’s best based on your mood. No need to wonder around for hours, looking for something you haven’t seen and that seems to fit how you’re feeling tonight. Thanks to a user friendly interface, you can instantly get to your movie or TV show.</p>"
+              "subtitle": "CONTEXT",
+              "title": "Short & fun",
+              "text": "<p>This was a 1 month workshop at Gobelins school. We had no other instructions than making an IoT.</p><p>Since we didn’t have much time, we wanted something fun, challenging but doable and linked to a common interest: movies and TV shows.</p>"
             }
           ]
         },
@@ -737,8 +842,8 @@
             {
               "block": "text",
               "subtitle": "HOW DOES IT WORK?",
-              "title": "Discrete & homemade sensor",
-              "text": "<p>After many hours of research, try and error, we manage to make a sensor, out of velostat and copper strips, able to map the position and the strength of our hands on the surface of our cushion. So by pressing, stroking, cuddling or even punching Cushy, he'll know and tell you what movie correspond to your mood, based on your gestures. </p><p>We designed and crafted a custom cushion cover with fabric paint and printed fabric that is matching our UI.</p>"
+              "title": "Discrete & homemade  sensor",
+              "text": "<p>After many hours of research, try and error, we managed to make a sensor, out of Velostat (conductive & pressure sensitive sheet) and copper strips, able to map the position and the strength of our hands on the surface of our cushion. So by pressing, stroking, cuddling or even punching Cushy, he'll know and tell you what movie correspond to your mood, based on your gestures. </p><p>We designed and crafted a custom cushion cover with fabric paint and printed fabric that is matching our UI.</p>"
             }
           ]
         },
@@ -779,7 +884,7 @@
       "title": "Parfums de Marly",
       "subtitle": "Interactive window",
       "date": "2016",
-      "type": "Vitrine interactive",
+      "type": "Interactive windows",
       "skills": "Mobile app • UI",
       "team": "Soixante Circuits",
       "rows": [
@@ -811,9 +916,9 @@
           "blocks": [
             {
               "block": "text",
-              "subtitle": "PROJECTS",
+              "subtitle": "PROJECT",
               "title": "Make your own perfume",
-              "text": "<p>We made a realistic and elegantly tailored immersion allowing passersby to interact with the window display with their phone and take part in the confection of a perfume by choosing different aromas.</p><p>By posting their portrait on Instagram, they could also see it materialise in the form of a digitally displayed rococo painting.</p>"
+              "text": "<p>We made a realistic and elegantly tailored immersion allowing passersby to interact with the window display with their phone and take part in the confection of a perfume by choosing different notes.</p><p>By posting their portrait on Instagram, they could also see it materialise in the form of a digitally displayed rococo painting.</p>"
             }
           ]
         },
@@ -855,7 +960,7 @@
       "title": "Lost Elements",
       "subtitle": "Tablet game",
       "date": "2016",
-      "type": "Jeu tablette",
+      "type": "Tablet game",
       "skills": "IoT • UI • Unity",
       "team": "Anthelme Dumont • Mélanie Lo • Kirgan Somville",
       "rows": [
@@ -908,7 +1013,7 @@
           "blocks": [
             {
               "block": "text",
-              "subtitle": "PROJECTS",
+              "subtitle": "PROJECT",
               "title": "Game for your thoughts",
               "text": "<p>Lost Elements is a puzzle game with a connected object that will carry you to an oneiric world not so far from present realities.</p><p>In order for the player to understand climate imbalance, he/she will have to gather all four elements to learn how to use them properly to solve every puzzles the levels hold.</p><p>The game consists of a tutorial and four chapters (one per element) in which are contained a predetermined amount of levels. </p>"
             },
@@ -1004,7 +1109,7 @@
           "blocks": [
             {
               "block": "text",
-              "subtitle": "CONTEXT & PROJECTS",
+              "subtitle": "CONTEXT & PROJECT",
               "title": "A thin line between hobby & work",
               "text": "<p>Cosplay (from « costume and « playing ») isn’t such a well known hobby yet. Many biases are still sticking to it but, for me, it’s a way to challenge myself and going even further with each new project.</p><br><p>I made Orianna, from League of Legends, to follow through my experimentations with Arduino and motors, improvising myself as an engineer for the 400 hours I spent on it. </p><br><p>As you can see, I consider my hobby, cosplay, as a work of its own, and treat it with as much implication and motivation than an interactive design project.</p>"
             }
