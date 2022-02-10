@@ -33,7 +33,7 @@
     "eslint-plugin-nuxt": "^1.0.0",
     "jsdom": "^16.4.0",
     "jsdom-global": "^3.0.2",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "require-extension-hooks": "^0.3.3",
     "require-extension-hooks-babel": "^1.0.0",
     "require-extension-hooks-vue": "^3.0.0",
